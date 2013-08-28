@@ -1,0 +1,5 @@
+
+acces carpeta estadístiques:
+http://www.clubpadres.com/regalo/php/estadisticas/estadisticas.php
+user: clubpadres
+pwd: d4n0n3

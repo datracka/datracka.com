@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+<head>
+    <title>Audi Cumpleaños</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="author" content="dd di cesare" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <link href="css/reset.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/lib/sifr.css" type="text/css" media="screen" />
+    <link href="css/main_style.css" type="text/css" rel="stylesheet" />
+
+   <script type="text/javascript" src="js/lib/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="js/lib/sifr.js"></script>
+    <script type="text/javascript" src="js/lib/sifr-config.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/validation.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+   
+   
+   <script type="text/javascript" language="javascript">
+      $(document).ready(function() {  
+            var fixHeight = $(document).height();
+            var outerWrapper = 570;
+            var top = fixHeight/2 - outerWrapper/2;
+            
+            $('#outerWrapper').css({"position" : "relative", "top" : top});;
+       
+        });
+        
+    
+
+    </script>
+
+
+
+</head>
+
+<body id="form">
+<div id="loading"></div>
+<div id="outerWrapper"><div id="wrapper">
+    
+    <div id="header">
+        <div class="clearfix">
+            <div class="floatLeft w100px pt20px"><img src="img/logo_audiclass.gif" alt="AudiClass" title="AudiClass" /></div>
+            <div class="floatRight w300px"><img src="img/logo_audi_rings.gif" alt="Audi" title="Audi" /></div>
+        </div>
+        <div class="audiType pt35px">
+            <h2><strong>Bienvenido a La Obra de su Vida</strong><br />Elija los detalles de su vida para componer su canción personalizada.</h2>
+            
+        </div>
+    </div>
+    
+    <div id="content">
+    
+        <form method="post" action="form.php" name="publicoAudiCumple2010.1" id="publicoAudiCumple2010.1">
+            <input type="hidden" name="procedencia_1" id="procedencia_1" value="publicoCumple2010_CP" />
+            <input type="hidden" name="sid" id="sid" />
+            <div class="formRow clearfix">
+                <div class="floatLeft label"><label for="conductor_sexo_1">Trato</label></div>    
+                <div id="conductor_sexo_1_select" class="floatLeft">
+                    <select name="conductor_sexo_1" id="conductor_sexo_1" class="field">
+                        <option value="">...cargando...</option>
+                    </select>
+                </div>    
+            </div>
+            
+            <div class="formRow clearfix">
+                <div class="clearfix floatLeft w330px">
+                    <div class="floatLeft label"><label for="conductor_sexo_1">Nombre</label></div>
+                    <div class="floatLeft"><input class="field w245px" type="text" name="conductor_nombre_1" id="conductor_nombre_1" maxlength="60" onkeyup="this.value = this.value.replace(no_numero, '')"  /></div>
+                </div>
+                
+                <div class="clearfix floatRight w300px">
+                    <div class="floatLeft label"><label for="conductor_apellido1_1">Primer apellido</label></div>
+                    <div class="floatLeft"><input class="field w220px" type="text" name="conductor_apellido1_1" id="conductor_apellido1_1" maxlength="60" onkeyup="this.value = this.value.replace(no_numero, '')" /></div>
+                </div>
+            </div>
+            
+            <div class="formRow clearfix">
+                <div class="floatLeft label2"><label for="conductor_FechaNac_1">Fecha de Nacimiento</label></div>
+                <div class="floatLeft">
+                    <input type="hidden" name="conductor_FechaNac_1" id="conductor_FechaNac_1" />
+                    <input class="field w37px" type="text" name="diaNac" id="diaNac" maxlength="2" onkeyup="this.value = this.value.replace(no_letra, '')" />
+                    <input class="field w37px" type="text" name="mesNac" id="mesNac" maxlength="2" onkeyup="this.value = this.value.replace(no_letra, '')" />
+                    <input class="field w73px" type="text" name="anoNac" id="anoNac" maxlength="4" onkeyup="this.value = this.value.replace(no_letra, '')" />
+                </div>
+                <div class="floatLeft labelInt"><label>(dd / mm / aaaa)</label></div>
+            </div>
+            
+            <div class="formRow clearfix">
+                <div class="clearfix floatLeft w330px">
+                    <div class="floatLeft label"><label for="conductor_provincia_1">Provincia</label></div>
+                    <div id="conductor_provincia_1_select" class="floatLeft">
+                        <select name="conductor_provincia_1" id="conductor_provincia_1" class="field w230px">
+                            <option value="">...cargando...</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="clearfix floatRight w300px">
+                    <div class="floatLeft label"><label for="vcomprado_modelo_1"> Modelo</label></div>
+                    <div id="vcomprado_modelo_1_select" class="floatLeft">
+                        <select name="vcomprado_modelo_1" id="vcomprado_modelo_1" class="field w230px">
+                            <option value="">...cargando...</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="formRow clearfix">
+                <div class="label"><label for="vcomprado_modelo_1">Aficiones</label></div>
+                <div id="conductor_aficiones_1_div" class="pl20px pt20px clearfix">
+
+                </div>    
+            </div>
+            
+            <div class="formRow clearfix">
+                <div id="errores" class="alignCenter"></div>
+                <div class="floatLeft clearfix w400px">
+                    <div id="conductor_lopdGeneral_1_div" class="floatLeft w20px">
+                    
+                    </div>
+                    <div class="floatLeft w340px pl10px"><label for="conductor_lopdGeneral_1">He leído y acepto las <a href="javascript:PopupCenter('notaLegal.html', 'nota',490,130)">condidiones generales</a> y el tratamiento de mis datos según lo especificado en las mismas.</label></div>
+                </div>
+                
+                <div class="floatRight w115px"><a href="javascript:checkForm();" title="Enviar"><img src="img/btn_enviar.gif" alt="Enviar" width="114" height="35" /></a>
+                </div>
+                
+                    
+            </div>
+                    
+        </form>
+    
+    </div>
+    
+</div></div>
+</body>
+
+</html>

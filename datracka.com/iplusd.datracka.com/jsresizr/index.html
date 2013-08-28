@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>JS resizer</title>
+        
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <link type="text/css" rel="stylesheet" href="css/estilos.css" />
+        <link type="text/css" rel="stylesheet" href="css/form.css" /> 
+        
+        <script type="text/javascript" src="js/AC_RunActiveContent.js"></script>
+        <script type="text/javascript" src="js/jquery/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery/jquery.flash.js"></script>
+        <script type="text/javascript" src="js/cufon-yui.js"></script>
+        <!--[if lte IE 7]>
+		<script type="text/javascript" src="js/cufon-yui-1.09.js"></script>
+        <![endif]-->
+        <!--[if gte IE 8]>
+		<script type="text/javascript" src="js/cufon-yui.js"></script>
+        <![endif]-->
+        
+        <script type="text/javascript" src="js/AudiType_Extended_font.js"></script>
+        <script type="text/javascript" src="js/AudiType_font.js"></script>
+        <script type="text/javascript">
+			Cufon.replace("label#lblLogin", {fontFamily: "AudiType"});
+            Cufon.replace(".AudiType", {fontFamily: "AudiType"});
+            Cufon.replace("div#volver a", {fontFamily: "AudiType Extended"});
+            Cufon.replace("a.partitura", {fontFamily: "AudiType Extended", hover: true});
+			Cufon.replace("a.linkSeccion", {fontFamily: "AudiType Extended", hover: true});
+			Cufon.replace("a#googleMaps", {fontFamily: "AudiType Extended", hover: true});
+            Cufon.replace("h6", {fontFamily: "AudiType"});
+			Cufon.replace("div#footer p", {fontFamily: "AudiType"});
+			Cufon.replace("div#footer a", {fontFamily: "AudiType Extended", hover: true});
+        </script>
+        
+        <script type="text/javascript" src="js/UInterface.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.jqtransform.js"></script>
+		<link rel="stylesheet" type="text/css" media="all" href="css/jqtransform.css" />
+        
+        <script type="text/javascript" src="js/apiforms/core-lib/Controller.js"></script>
+        
+        <!-- librerias de centrar en jquery -->
+        
+        <!-- http://johnpatrickgiven.com/jquery/background-resize/ -->
+        <!-- http://plugins.jquery.com/project/easycenter -->
+        
+        <script type="text/javascript" src="js/jquery/center-plugin_1.0.1.js"></script>
+        <script type="text/javascript" src="js/jquery/jquery.ez-bg-resize.js"></script>
+        
+        <!-- fin librerias de centrar en jquery --> 
+
+        <script language="javascript">
+        
+            $(document).ready(function(){
+				oU = new UInterface();
+			
+				$('#content').center();
+				$("#body-background").ezBgResize();
+				oU.public.viewPage('div#header', 'header_login.html', 300);
+				oU.public.viewPage('div#container', 'login.html', 300);
+									
+				$("form.jqtransform").jqTransform();
+				
+
+            });
+			
+        </script>      
+           
+      
+      	
+    </head>
+
+    <body>
+        		<div id="body-background"><img src="img/alabastra.jpg" alt="Bg"></div> 
+                <!--[if IE 6]>
+                    <div id="activebar-container" style="border-bottom: 1px solid rgb(102, 102, 102); padding: 4px; background: rgb(255, 255, 225) none repeat scroll 0% 0%; display: block; position: fixed; z-index: 9999; top: 0px; left: 0px; cursor: default; font-size: 9px; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; color: rgb(0, 0, 0); width: 1263px;" class=""><div class="icon" style="margin: 0pt 4px 0pt 0pt; padding: 0pt; float: left; width: 16px; height: 16px;"><img class="normal" src="img/ie6_icon.png" style="display: inline;" /></div><div class="content" style="margin: 0px 8px; padding-top: 1px; font-family: Bitstream Vera Sans,verdana,sans-serif; font-size: 11px;"><div>Para la correcta visualización de esta página es necesario poseer Internet Explorer 7 o versiones posteriores. Clica <a href="http://www.microsoft.com/spain/windows/internet-explorer/" style="font-family: Bitstream Vera Sans,verdana,sans-serif; font-size: 11px; color:#000000;">aquí</a> si quieres actualizar tu navegador...</div></div></div>
+                <![endif]-->
+              
+                <div id="content">
+                    <div id="header"></div>
+                    <div id="container"></div>
+                    <div id="footer"></div>
+                </div>
+                
+             
+             
+        <script type="text/javascript"> //Cufon.now(); </script>
+    </body>
+</html>

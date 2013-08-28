@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEXTOS>
+	<texto Var="PREHOME_0"><![CDATA[Esta web está reservada a personas mayores de 18 años o con edad legal para consumir alcohol conforme a la legislación de su país de acceso, te aconsejamos que no intentes  entrar en este sitio si no cumples con cualquiera de estos requisitos.
+BEBE CON RESPONSABILIDAD<br/>Eristoff es marca registrada. Disfruta de un consumo responsable 37,5]]></texto>
+	<texto Var="PREHOME_1">Terminos legales |  Poltica de privacidad  |  Responsabilidad</texto>
+	<texto Var="PREHOME_2">dia/mes/año nacimiento</texto>
+	<texto Var="PREHOME_3">entrar</texto>
+	<texto Var="PREHOME_4">elige tu país</texto>
+	<texto Var="PREHOME_5">El Vodka de la tierra de los lobos presenta</texto>
+	<texto Var="PREHOME_6">EL PRIMER FESTIVAL ONLINE DE MÚSICA</texto>
+	<texto Var="PREHOME_7">Todavía eres un lobezno. Nos vemos en tu 18 cumpleaños</texto>
+	<texto Var="PREHOME_8">Necesitamos saber si tienes más de 18 lunas</texto>
+	<texto Var="PREHOME_9">elige idioma</texto>
+
+	
+	<texto Var="FOOT_0"> 2009 Bacardi Global Brands Ltd | Bases Legales | Política de Privacidad | Responsabilidad | Aúllanos</texto>
+	
+	<texto Var="MENU_0">INICIO</texto>
+	<texto Var="MENU_1">EL FESTIVAL</texto>
+	<texto Var="MENU_2">BLOGGERS</texto>
+	<texto Var="MENU_3">ESPECTADORES</texto>
+	<texto Var="MENU_4">ARCHIVO LUNAR</texto>
+	
+	<texto Var="LOGIN_0">REGISTRATE</texto>
+	<texto Var="LOGIN_1">E-MAIL_</texto>
+	<texto Var="LOGIN_2">CONTRASEÑA_</texto>
+	<texto Var="LOGIN_3">¿Has olvidado tu contraseña?</texto>
+	<texto Var="LOGIN_4">Hola</texto>
+	
+	<texto Var="NEWSLETTER_0">Deja tu email</texto>
+	<texto Var="NEWSLETTER_1">He leído y acepto el aviso legal</texto>
+	<texto Var="NEWSLETTER_2">Muchas gracias por solicitar este servicio</texto>
+	<texto Var="NEWSLETTER_3">Tu nombre</texto>
+	
+	<texto Var="HOME_0">ERISTOFF</texto>
+	<texto Var="HOME_1">DELOREAN</texto>
+	<texto Var="HOME_2">EN BREVE...</texto>
+	<texto Var="HOME_3">NEWS</texto>
+	<texto Var="HOME_4">La marca del lobo, con la música</texto>
+	<texto Var="HOME_5">Todo el recital de Delorean en el Archivo Lunar</texto>
+	<texto Var="HOME_6">Atentos a las próximas lunas llenas</texto>
+	<texto Var="HOME_7">BIENVENIDOS AL PRIMER FESTIVAL ONLINE DE MÚSICA</texto>
+	<texto Var="HOME_8">ERISTOFF</texto>
+	<texto Var="HOME_9">DELOREAN</texto>
+	<texto Var="HOME_10">PRÓXIMOS CONCIERTOS</texto>
+
+  <texto Var="CONTADOR_1">QUEDAN</texto>
+	<texto Var="CONTADOR_2">DÍAS</texto>
+	<texto Var="CONTADOR_3">PARA EL PRIMER FESTIVAL</texto>
+  <texto Var="CONTADOR_4">ONLINE</texto>
+  <texto Var="CONTADOR_5">HORAS</texto>
+	<texto Var="CONTADOR_6">MINUTOS</texto>
+	<texto Var="CONTADOR_7">SEGUNDOS</texto>
+  <texto Var="CONTADOR_8">PARA EL PRIMER FESTIVAL ONLINE</texto>
+  <texto Var="CONTADOR_9">en breve podrás ver</texto>
+	<texto Var="CONTADOR_10">todos los vídeos</texto>
+	<texto Var="CONTADOR_11">del concierto de</texto>
+  <texto Var="CONTADOR_12">LOVE OF LESBIAN</texto>
+  <texto Var="CONTADOR_13">AL CONCIERTO</texto>
+
+	<texto Var="FESTIVAL_0">¿QUÉ ES?</texto>
+	<texto Var="FESTIVAL_1"><![CDATA[El <span class="negrita_negra">Eristoff Internative Festival</span> es el primer festival online de música, creado para Internet y difundido exclusivamente por este medio. Una serie de conciertos interactivos en directo, las noches de luna llena, en los que los usuarios podrán dejar de ser meros espectadores para formar parte del espectáculo, modificarlo y crearlo. <br/><br/><span class="negrita_negra">¿Quiere esto decir que no es un concierto abierto al público?</span><br/><br/>Exactamente. El público sois todos desde vuestros ordenadores y seréis los protagonistas. Pero, de todas formas, como cada concierto se celebra en una guarida secreta, si eres un lobo listo, un auténtico líder de manada, quizás puedas llegar hasta una de ellas.]]></texto>
+	<texto Var="FESTIVAL_2">¿DÓNDE SE CELEBRA?</texto>
+	<texto Var="FESTIVAL_3"><![CDATA[<span class="negrita_negra">Amigo lobo</span>, este festival se celebra en <span class="negrita_negra">toda la Red</span> y cualquiera con una conexión puede introducirse en cada concierto, interactuar con el grupo desde su guarida, ser parte creativa de la instalación audiovisual y aullar al ritmo de los acordes de los mejores grupos.]]></texto>
+	
+	<texto Var="FESTIVAL_GRUPO_PEQ_0">PRÓXIMO CONCIERTO</texto>
+	<texto Var="FESTIVAL_GRUPO_PEQ_1">DELOREAN</texto>
+	<texto Var="FESTIVAL_GRUPO_PEQ_2">04.10.09</texto>
+	<texto Var="FESTIVAL_GRUPO_PEQ_3">LESBIAN</texto>
+	
+	<texto Var="FESTIVAL_GRUPO_PEQ_4">UN FESTIVAL ATÍPICO NO PUEDE</texto>
+	<texto Var="FESTIVAL_GRUPO_PEQ_5">DESVELAR TODOS SUS SECRETOS.</texto>
+
+
+	<texto Var="FESTIVAL_GRUPO_PEQ_6"><![CDATA[<span class="negrita_negra">El Eristoff Internative Festival</span> se irá desvelando poco a poco. <br />Por ahora, te dejamos con el segundo de los conciertos:]]></texto>
+
+	<texto Var="FESTIVAL_GRUPO_PEQ_7"><![CDATA[<span class="negrita_negra">> Delorean</span>]]></texto>
+
+	
+	<texto Var="FESTIVAL_11">¿CÓMO ASISTIR?</texto>
+
+	<texto Var="FESTIVAL_12"><![CDATA[Para este festival no hacen falta entradas, ni reservas, ni desplazamientos, ni pagos. Sólo con conectarte a esta web podrás disfrutar de esta experiencia online desde tu ordenador, totalmente gratis. Estés donde estés, estés con quien estés. Así de fácil.<br /><br />Si eres blogger, tienes la oportunidad de conocer en primera persona todo el entramado de este festival. Entra en Bloggers. Si eres espectador, puedes crear tu propio spot, elegir los temas que se tocarán y mucho más. Entra en Espectadores.]]></texto>
+
+	
+	<texto Var="FESTIVAL_13">¿CUÁNDO?</texto>
+
+	<texto Var="FESTIVAL_14"><![CDATA[Las <span class="negrita_negra">NOCHES DE LUNA LLENA</span> las <span class="negrita_negra">22hrs</span> esta web se transformará en una gran ventana al concierto en directo, donde los aullidos se oirán hasta la medianoche.<br /><br />Si eres un lobo curioso puedes conformarte con esto. Pero si de verdad <span class="negrita_negra">quieres participar activamente</span>, entonces tendrás que esforzarte para cazar la presa.]]></texto>
+
+	<texto Var="FESTIVAL_15"><![CDATA[]]></texto>
+	<texto Var="FESTIVAL_16"><![CDATA[]]></texto>
+	
+	<texto Var="FESTIVAL_GRUPO_GRANDE_0">PRÓXIMO CONCIERTO</texto>
+	<texto Var="FESTIVAL_GRUPO_GRANDE_1">DELOREAN</texto>
+	<texto Var="FESTIVAL_GRUPO_GRANDE_2">04.10.09</texto>
+	
+
+	<texto Var="FESTIVAL_GRUPO_GRANDE_3"><![CDATA[Pocas veces un EP causa tanto revuelo. Hace apenas unos meses que Delorean publicaron el excelente <span class="negrita_blanca">Ayrton Senna (Mushroom Pillow)</span>, presentando cuatro nuevas canciones de pop electrónico, y ya están recogiendo innumerables halagos del público y de la prensa nacional e internacional (incluida la prestigiosa Pitchfork).]]></texto>
+	<texto Var="FESTIVAL_GRUPO_GRANDE_4"><![CDATA[Con una irresistible discografía a sus espaldas y una proyección que parece no tener fin, el cuarteto vasco afincado en Barcelona lanzará en octubre su esperadísimo nuevo larga duración, en el que prometen no dar tregua a las piernas con temas bailables hasta decir basta. Una combinación explosiva de <span class="negrita_blanca">pop, electrónica y funk</span> que trasladarán a absorbentes conciertos llenos de intensidad y energía. Su único objetivo: hacerte vivir una experiencia inigualable.<br/><br/>Por todo, podemos asegurar que este otoño será el otoño de Delorean. El otoño que debe catapultarles definitivamente hasta lo más alto de la música de baile. <span class="negrita_blanca">Lo podrás comprobar en directo el domingo 4 de octubre a las 22:00 h. en el Eristoff Internative Festival.</span> ]]></texto>
+
+	
+	<texto Var="BLOGGER_ASISTIR_0">¿QUIERES ASISTIR EN VIVO?</texto>
+	<texto Var="BLOGGER_ASISTIR_1"><![CDATA[El <span class="negrita_blanca">[caja]Eristoff Internative Festival[/caja]</span> es un festival online. Pero <span class="negrita_negra">los líderes de los lobos tienen una oportunidad única para ver qué ocurre detrás de un concierto online</span> con una manada selecta. Una vez allí te mostraremos cómo se crea esta experiencia, cómo se graba y difunde técnicamente. Además de poder ver a la banda en su concierto, por supuesto. Los gastos de viaje y alojamiento corren por nuestra cuenta.<br/>Además, si resultas uno de los elegidos, <span class="negrita_negra">recibirás en exclusiva unos códigos secretos que permiten a los asistentes online interactuar con el grupo y el escenario.</span> Y por supuesto, <span class="negrita_negra">recibirás antes que nadie todo el material del concierto</span> al que has asistido.]]></texto>
+	<texto Var="BLOGGER_ASISTIR_2"><![CDATA[]]></texto>
+	
+	<texto Var="BLOGGER_MATERIALES">MATERIALES</texto>
+	<texto Var="BLOGGER_MATERIALES_1"><![CDATA[DESCÁRGATE todos los materiales que necesites para promover tu candidatura a jefe de la manada. Y si necesitas algo más, no dudes en contactar con nosotros]]></texto>
+	
+	<texto Var="BLOGGER_RANKING">RANKING</texto>
+	
+
+	<texto Var="BLOGGER_PARTICIPA_PETIT_0"><![CDATA[¿ERES UN LÍDER DE MANADA ERISTOFF? ENTONCES <font size="20" color="#FFFFFF"> [caja]PARTICIPA >[/caja] </font>]]></texto>
+		
+	<texto Var="BLOGGER_PARTICIPA_GRAN_0">PARTICIPA</texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_1"><![CDATA[<b>PARA GANAR TU PLAZA COMO LÍDER DE MANADA DEBERÁS AULLAR MÁS ALTO QUE NADIE.</b>]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_2"><![CDATA[<font color='#FFFFFF'>1.</font><font color='#005596'> <b>Regístrate como blogger.</b> Te facilitamos un banner para colocar en tu blog.</font>]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_3"><![CDATA[<font color='#FFFFFF'>2.</font><font color='#005596'> Tus lectores y seguidores sólo deben clicar en tu banner para votar por ti. Un lector de cada uno de los blogs ganadores podrá asistir.</font>]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_4"><![CDATA[<font color='#FFFFFF'>3.</font><font color='#005596'> Los cinco  bloggers que más votos consigan, asisten al concierto. Así de sencillo.</font>]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_5">¿QUIERES PARTICIPAR EN MANADA?</texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_6">¿CÓMO CONVERTIR A TUS LECTORES EN TUS VOTANTES?</texto>
+	
+	<texto Var="BLOGGER_PARTICIPA_GRAN_7"><![CDATA[Si tienes algunos amigos bloggers podéis participar conjuntamente como una manada, y asistir juntos si resultáis ganadores.<br/>Para ello sólo deberás registrarte como manada y enviar invitaciones a tus compañeros bloggers (hasta cinco blogs por manada).<br/>Os facilitaremos un banner que contabilizará los votos conjuntamente. Las manada con más votos conseguirá entradas para el concierto]]></texto>
+	
+	<texto Var="BLOGGER_PARTICIPA_GRAN_8"><![CDATA[Los métodos que elijas son parte de tu estrategia como líder. Pero, por si puede ayudar, te diremos que si resultas un blogger ganador, entre todos los lectores que te hayan votado y dejado su email en el banner haremos un sorteo. <br/>Uno de ellos podrá ser tu acompañante. <br/>Un pequeño incentivo para aumentar la lealtad de tu manada.]]></texto>
+	
+	<texto Var="BLOGGER_PARTICIPA_REGISTRAT_0"><![CDATA[HOLA]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_REGISTRAT_1"><![CDATA[<span class="negrita_negra">Levanta bien las orejas, se acerca ya la luna llena.</span><br/>Todavía puedes asomar el hocico en el siguiente concierto internativo.]]></texto>
+	
+	<texto Var="BLOGGER_PARTICIPA_MODIFICA"><![CDATA[MODIFICA TUS DATOS >]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_MANADA_1"><![CDATA[AMPLÍA TU MANADA >]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_MANADA_2"><![CDATA[CREA UNA MANADA >]]></texto>
+	
+	<texto Var="REGISTRO_0"><![CDATA[REGÍSTRATE]]></texto>
+	<texto Var="REGISTRO_1"><![CDATA[RELLENA CON TUS DATOS EL SIGUIENTE FORMULARIO Y OBTENDRÁS TU BANNER PARA PARTICIPAR.]]></texto>
+	<texto Var="REGISTRO_2"><![CDATA[<span class="negrita_negra">¿CÓMO QUIERES PARTICIPAR?</span>]]></texto>
+	<texto Var="REGISTRO_3"><![CDATA[<span class="negrita_negra">LOBO SOLITARIO</span>]]></texto>
+	<texto Var="REGISTRO_4"><![CDATA[<span class="negrita_negra">MANADA</span>]]></texto>
+	<texto Var="REGISTRO_5"><![CDATA[<span class="negrita_negra">NOMBRE DE TU BLOG:</span>]]></texto>
+	<texto Var="REGISTRO_6"><![CDATA[<span class="negrita_negra">URL DE TU BLOG:</span>]]></texto>
+	<texto Var="REGISTRO_7"><![CDATA[<span class="negrita_negra">TU NOMBRE:</span>]]></texto>
+	<texto Var="REGISTRO_8"><![CDATA[<span class="negrita_negra">APELLIDOS:</span>]]></texto>
+	<texto Var="REGISTRO_9"><![CDATA[<span class="negrita_negra">FECHA DE NACIMIENTO:</span>]]></texto>
+	<texto Var="REGISTRO_10"><![CDATA[<span class="negrita_negra">E-MAIL:</span>]]></texto>
+	<texto Var="REGISTRO_11"><![CDATA[<span class="negrita_negra">CONTRASEÑA:</span>]]></texto>
+	<texto Var="REGISTRO_12"><![CDATA[<span class="negrita_negra">REPETIR CONTRASEÑA:</span>]]></texto>
+	<texto Var="REGISTRO_13"><![CDATA[<span class="negrita_negra">CIUDAD DE RESIDENCIA:</span>]]></texto>
+	<texto Var="REGISTRO_14"><![CDATA[<span class="negrita_negra">ACEPTO LAS CONDICIONES LEGALES</span>]]></texto>
+	<texto Var="REGISTRO_15"><![CDATA[<span class="negrita_negra">ENVIAR</span>]]></texto>
+	
+	<texto Var="REGISTRO_16"><![CDATA[<span class="negrita_negra">ENVÍA LAS INVITACIONES A AQUELLOS QUE QUIERAS UNIR A TU MANADA, SÓLO DEBES INTRODUCIR SU EMAIL.</br>PODÉIS SER HASTA 5 BLOGGERS</span>]]></texto>
+	<texto Var="REGISTRO_17"><![CDATA[<span class="negrita_negra">EMAIL 1</span>]]></texto>
+	<texto Var="REGISTRO_18"><![CDATA[<span class="negrita_negra">EMAIL 2</span>]]></texto>
+	<texto Var="REGISTRO_19"><![CDATA[<span class="negrita_negra">EMAIL 3</span>]]></texto>
+	<texto Var="REGISTRO_20"><![CDATA[<span class="negrita_negra">EMAIL 4</span>]]></texto>
+	<texto Var="REGISTRO_21"><![CDATA[<span class="negrita_negra">EMAIL 5</span>]]></texto>
+	<texto Var="REGISTRO_22"><![CDATA[<span class="negrita_negra">NOMBRE DE LA MANADA</span>]]></texto>
+	<texto Var="REGISTRO_23"><![CDATA[<span class="negrita_negra">ACEPTO LAS CONDICIONES LEGALES</span>]]></texto>
+	<texto Var="REGISTRO_24"><![CDATA[MODIFICA TUS DATOS Y ENVIANOSLOS DE NUEVO]]></texto>
+	
+	
+	<texto Var="RANKING_0"><![CDATA[RANKING]]></texto>
+	<texto Var="RANKING_1"><![CDATA[MANADA]]></texto>
+	<texto Var="RANKING_2"><![CDATA[LOBO SOLITARIO]]></texto>
+	<texto Var="RANKING_3"><![CDATA[<span class="negrita_negra">Estos son los líderes de la manada por los que más lobos han votado hasta el momento.<br/>¿Te atreves a retarlos?</span>]]></texto>
+	
+	<texto Var="MATERIALES_0"><![CDATA[MATERIALES]]></texto>
+	<texto Var="MATERIALES_1"><![CDATA[<span class="negrita_blanca">MATERIAL PARA TU BLOG</span><br/><br/>DESCÁRGATE todos los materiales que necesites para promover tu candidatura a jefe de la manada o, si sólo quieres hablar del festival, para acompañar tu post. Y si necesitas algo más, envíanos un email a <a href="mailto:info@eristoffinternativefestival.com">info@eristoffinternativefestival.com</a>]]></texto>
+	<texto Var="MATERIALES_2"><![CDATA[<span class="negrita_blanca">WIDGET DE PARTICIPACIÓN BLOGGERS REGISTRADOS</span class="negrita_blanca"><br/><br/>Recuerda que cuanto más visible sea tu widget, más posibilidades tienes de que te voten.<br/><br/>Si utilizas un gestor de blogs, copia el código y pégalo en tu sidebar, en aquel gadget que te permita introducir código html. Si tienes dudas, contacta con <a href="mailto:info@eristoffinternativefestival.com">nosotros</a>]]></texto>
+	<texto Var="MATERIALES_3"><![CDATA[WIDGET RICH MEDIA (300X400)]]></texto>
+	<texto Var="MATERIALES_4"><![CDATA[BANNER]]></texto>
+	<texto Var="MATERIALES_5"><![CDATA[VÍDEO]]></texto>
+	<texto Var="MATERIALES_6"><![CDATA[OTROS MATERIALES]]></texto>
+	<texto Var="MATERIALES_7"><![CDATA[WIDGET (175X200)]]></texto>
+	<texto Var="MATERIALES_8"><![CDATA[PREVISUALIZAR]]></texto>
+	<texto Var="MATERIALES_9"><![CDATA[OTROS MATERIALES]]></texto>
+	<texto Var="MATERIALES_10"><![CDATA[PARA PODER DESCARGAR ESTE MATERIAL ES NECESARIO ESTAR REGISTRADO]]></texto>
+	
+	<texto Var="RECORDAR_0"><![CDATA[RECORDAR CONTRASEÑA]]></texto>
+	<texto Var="RECORDAR_1"><![CDATA[<span class="negrita_blanca">DÉJANOS EL EMAIL CON EL QUE TE REGISTRASTE Y TE DAREMOS UNA CONTRASEÑA NUEVA</span>]]></texto>
+	<texto Var="RECORDAR_2"><![CDATA[<span class="negrita_negra">E-MAIL:</span>]]></texto>
+	<texto Var="RECORDAR_3"><![CDATA[<span class="negrita_negra">ACEPTO LAS CONDICIONES LEGALES</span>]]></texto>
+	<texto Var="RECORDAR_4"><![CDATA[<span class="negrita_negra">ENVIAR</span>]]></texto>
+	<texto Var="RECORDAR_5">Te hemos enviado un email con tu nueva contraseña. ¡Gracias!</texto>
+	
+	<texto Var="VISUALIZADOR_0"><![CDATA[¿QUIERES PARTICIPAR ACTIVAMENTE?]]></texto>
+	<texto Var="VISUALIZADOR_1"><![CDATA[LOBO, TÚ PUEDES ESTAR PRESENTE EN ESTE CONCIERTO<br/>Sólo necesitas los CÓDIGOS SECRETOS que nuestros BLOGGERS GANADORES tienen en su poder. Accede al que prefieras e interactúa con la banda.]]></texto>
+	<texto Var="VISUALIZADOR_2"><![CDATA[<span class="negrita_negra">CODIGO</span>]]></texto>
+	<texto Var="VISUALIZADOR_3"><![CDATA[AÚLLA]]></texto>
+	<texto Var="VISUALIZADOR_4"><![CDATA[Desde aquí tu mensaje llegará muy lejos]]></texto>
+	<texto Var="VISUALIZADOR_5"><![CDATA[Desde aquí tu mensaje llegará muy lejos]]></texto>
+	<texto Var="VISUALIZADOR_6"><![CDATA[ASOMA EL HOCICO]]></texto>
+	<texto Var="VISUALIZADOR_7"><![CDATA[Sube aquí tu foto y estarás en el escenario]]></texto>
+	<texto Var="VISUALIZADOR_8"><![CDATA[WEBCAM]]></texto>
+	<texto Var="VISUALIZADOR_9"><![CDATA[CONECTA.]]></texto>
+	<texto Var="VISUALIZADOR_10"><![CDATA[la luna es tuya]]></texto>
+	<texto Var="VISUALIZADOR_11"><![CDATA[Conviertete en el lobo protagonista conectando con]]></texto>
+	<texto Var="VISUALIZADOR_12"><![CDATA[Tienes]]></texto>
+	<texto Var="VISUALIZADOR_13"><![CDATA[personas delante]]></texto>
+	<texto Var="VISUALIZADOR_14"><![CDATA[Perspectiva]]></texto>
+	<texto Var="VISUALIZADOR_15"><![CDATA[Estilo]]></texto>
+	<texto Var="VISUALIZADOR_16">eristoff</texto>
+	<texto Var="VISUALIZADOR_17"><![CDATA[CODIGO INCORRECTO]]></texto>
+	<texto Var="VISUALIZADOR_18"><![CDATA[cerrar vídeo  x]]></texto>
+	<texto Var="VISUALIZADOR_19"><![CDATA[TEXTO ENVIADO]]></texto>
+	<texto Var="VISUALIZADOR_20"><![CDATA[ERROR EN EL ENVIO]]></texto>
+	<texto Var="VISUALIZADOR_21"><![CDATA[ENVIANDO FOTO...]]></texto>
+    <texto Var="VISUALIZADOR_22"><![CDATA[FOTO ENVIADA]]></texto>
+	<texto Var="VISUALIZADOR_23"><![CDATA[ENVIANDO TEXTO...]]></texto>
+	<texto Var="VISUALIZADOR_24"><![CDATA[refrescar vídeo  x]]></texto>	
+	<texto Var="VISUALIZADOR_25"><![CDATA[ENVIANDO PREGUNTA...]]></texto>	
+	<texto Var="VISUALIZADOR_26"><![CDATA[PREGUNTA ENVIADA]]></texto>
+	<texto Var="VISUALIZADOR_27"><![CDATA[CHAT ROOM DELOREAN]]></texto>		
+	<texto Var="VISUALIZADOR_28"><![CDATA[Manda tu pregunta al finalizar el concierto.]]></texto>		
+	<texto Var="VISUALIZADOR_29"><![CDATA[Haz clic aquí para acceder a los blogs ganadores]]></texto>
+	<texto Var="VISUALIZADOR_30"><![CDATA[ATENTO A LA PANTALLA LOBO]]></texto>
+	<texto Var="VISUALIZADOR_31"><![CDATA[lo sentimos. la cola esta completa]]></texto>
+	<texto Var="VISUALIZADOR_32"><![CDATA[Necesitas flash player 10. Descargatelo aqui]]></texto>
+	
+	<texto Var="ARCHIVO_0"><![CDATA[ARCHIVO LUNAR]]></texto>
+	<texto Var="ARCHIVO_1"><![CDATA[Estas son las noches de luna llena vividas en el Eristoff Internative Festival. Los aullidos se escucharon en toda la red. Y ahora pervivirán para siempre.]]></texto>
+	
+	<texto Var="ESPECTADORES_0"><![CDATA[SÉ EL PROTAGONISTA DEL ERISTOFF INTERNATIVE FESTIVAL]]></texto>
+	<texto Var="ESPECTADORES_1"><![CDATA[Tenemos grandes sorpresas preparadas para el 4 de octubre, noche de luna llena, a las 22:00h. Nuevas interactividades, nuevo escenario, nuevo grupo.<br/>Pero no todo está decidido. Los lobos espectadores podéis elegir, entre todos, algunos aspectos del concierto. Para empezar, la canción que preferís para cerrar el concierto de Delorean.<br/><br/>¡Tú decides lobo!.]]></texto>
+	<texto Var="ESPECTADORES_2"><![CDATA[¿CÓMO PARTICIPAR COMO ESPECTADOR ANTES DEL CONCIERTO?]]></texto>
+	<texto Var="ESPECTADORES_3"><![CDATA[Participa en las votaciones sobre cómo quieres el concierto.]]></texto>
+	<texto Var="ESPECTADORES_4"><![CDATA[Entra en los blogs participantes, vota el que más te guste y entra en el sorteo de entradas para asistir en vivo.]]></texto>
+	<texto Var="ESPECTADORES_5"><![CDATA[Apúntate a nuestra Newsletter.]]></texto>
+	<texto Var="ESPECTADORES_6"><![CDATA[Síguenos en MySpace, Facebook o Twitter.]]></texto>
+	<texto Var="ESPECTADORES_7"><![CDATA[Síguenos en MySpace, Facebook o Twitter.]]></texto>
+	<texto Var="ESPECTADORES_8"><![CDATA[PRÓXIMO CONCIERTO]]></texto>
+	<texto Var="ESPECTADORES_9"><![CDATA[DELOREAN]]></texto>
+	<texto Var="ESPECTADORES_10"><![CDATA[04.10.09]]></texto>
+	<texto Var="ESPECTADORES_11"><![CDATA[22 HRS.]]></texto>
+	<texto Var="ESPECTADORES_12"><![CDATA[PÍDETE UN TEMA]]></texto>
+	<texto Var="ESPECTADORES_13"><![CDATA[La canción más votada de Delorean abrirá el próximo concierto el 4 de octubre.]]></texto>
+	<texto Var="ESPECTADORES_14"><![CDATA[As time breaks off]]></texto>
+	<texto Var="ESPECTADORES_15"><![CDATA[Deli]]></texto>
+	<texto Var="ESPECTADORES_16"><![CDATA[Tema inédito]]></texto>
+	<texto Var="ESPECTADORES_17"><![CDATA[GRACIAS POR TU VOTO]]></texto>
+	
+	
+	<texto Var="GANADOR_1">http://www.thinkingplanet.es</texto>
+  <texto Var="GANADOR_2">http://www.bukawi.org</texto>
+  <texto Var="GANADOR_3">http://deadsoulx.blogspot.com</texto>
+  <texto Var="GANADOR_4">http://lacasadelrock.wordpress.com</texto>
+  <texto Var="GANADOR_5">http://proyectochapa.blogspot.com</texto>
+  <texto Var="GANADOR_6">http://www.jandeporas.com</texto>
+  <texto Var="GANADOR_7">http://sepuede.tumblr.com/</texto>
+  <texto Var="GANADOR_8">http://ocirtic.tumblr.com/</texto>
+  <texto Var="GANADOR_9">http://stronfo.tumblr.com/</texto>
+	
+	
+	<texto Var="ERROR_0">DEBE ACEPTAR LAS CONDICIONES LEGALES</texto>
+	<texto Var="ERROR_1">DEBE INTRODUCIR UN EMAIL VALIDO</texto>
+	<texto Var="ERROR_2">DEBE INTRODUCIR UNA FECHA DE NACIMIENTO</texto>
+	<texto Var="ERROR_3">DEBE CONFIRMAR LA CONTRASEÑA</texto>
+	<texto Var="ERROR_4">DEBE INTRODUCIR UN NOMBRE DE MANADA</texto>
+	<texto Var="ERROR_5">EL MAIL DE BLOGGER DEBE SER VALIDO</texto>
+	<texto Var="ERROR_6">LO SENTIMOS PERO ESTA MANADA YA ESTA COMPLETA</texto>
+	<texto Var="ERROR_7">Debes estar registrado para conseguir tu banner de participación. Regístrate</texto>
+	<texto Var="ERROR_8">DEBE ACEPTAR LAS CONDICIONES LEGALES PARA LA MANADA</texto>
+	<texto Var="ERROR_9">ERROR DE CONEXION CON EL SERVIDOR</texto>
+	<texto Var="ERROR_10">SOLO EL LIDER DE LA MANADA PUEDE AMPLIARLA</texto>
+	<texto Var="ERROR_11">DEBE RELLENAR TODOS LOS CAMPOS</texto>
+	<texto Var="ERROR_12">PRÓXIMAMENTE</texto>
+	
+</TEXTOS>
+

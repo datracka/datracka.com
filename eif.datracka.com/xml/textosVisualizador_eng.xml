@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TEXTOS>
+	<!-- falta ria traducir estos textos! -->
+	<texto Var="VISUALIZADOR_0"><![CDATA[PONTE]]></texto>
+	<texto Var="VISUALIZADOR_1"><![CDATA[EN PRIMERA]]></texto>
+	<texto Var="VISUALIZADOR_2"><![CDATA[FILA LOBO]]></texto>
+	<texto Var="VISUALIZADOR_3"><![CDATA[QUEDAN]]></texto>
+	<texto Var="VISUALIZADOR_4"><![CDATA[LOBOS]]></texto>
+	<texto Var="VISUALIZADOR_5"><![CDATA[ENTRAR]]></texto>
+</TEXTOS>
+

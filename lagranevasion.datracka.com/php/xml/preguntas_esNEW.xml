@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<combos>
+<provincias>
+<provincia data="44" label="Álava"/>
+<provincia data="25" label="Albacete"/>
+<provincia data="48" label="Alicante"/>
+<provincia data="1" label="Almería"/>
+<provincia data="12" label="Asturias"/>
+<provincia data="16" label="Ávila"/>
+<provincia data="35" label="Badajoz"/>
+<provincia data="40" label="Baleares"/>
+<provincia data="30" label="Barcelona"/>
+<provincia data="17" label="Burgos"/>
+<provincia data="34" label="Cáceres"/>
+<provincia data="2" label="Cádiz"/>
+<provincia data="15" label="Cantabria"/>
+<provincia data="49" label="Castellón"/>
+<provincia data="51" label="Ceuta"/>
+<provincia data="26" label="Ciudad Real"/>
+<provincia data="3" label="Córdoba"/>
+<provincia data="36" label="Coruña"/>
+<provincia data="27" label="Cuenca"/>
+<provincia data="31" label="Girona"/>
+<provincia data="4" label="Granada"/>
+<provincia data="28" label="Guadalajara"/>
+<provincia data="45" label="Guipuzcoa"/>
+<provincia data="5" label="Huelva"/>
+<provincia data="9" label="Huesca"/>
+<provincia data="6" label="Jaén"/>
+<provincia data="41" label="La Rioja"/>
+<provincia data="13" label="Las Palmas"/>
+<provincia data="18" label="León"/>
+<provincia data="32" label="Lérida"/>
+<provincia data="37" label="Lugo"/>
+<provincia data="42" label="Madrid"/>
+<provincia data="7" label="Málaga"/>
+<provincia data="52" label="Melilla"/>
+<provincia data="47" label="Murcia"/>
+<provincia data="43" label="Navarra"/>
+<provincia data="38" label="Orense"/>
+<provincia data="19" label="Palencia"/>
+<provincia data="39" label="Pontevedra"/>
+<provincia data="20" label="Salamanca"/>
+<provincia data="21" label="Segovia"/>
+<provincia data="8" label="Sevilla"/>
+<provincia data="22" label="Soria"/>
+<provincia data="33" label="Tarragona"/>
+<provincia data="14" label="Tenerife"/>
+<provincia data="10" label="Teruel"/>
+<provincia data="29" label="Toledo"/>
+<provincia data="50" label="Valencia"/>
+<provincia data="23" label="Valladolid"/>
+<provincia data="46" label="Vizcaya"/>
+<provincia data="24" label="Zamora"/>
+<provincia data="11" label="Zaragoza"/>
+</provincias>
+<preguntas>
+<p1 txt="¿Qué lema seguirías para ganar la Gran Evasión?">
+<txt><![CDATA[¿Qué lema seguirías para ganar <b>La Gran Evasión</b>?]]></txt>
+<p data="0" label="Mejor lento pero seguro."/>
+<p data="1" label="Si te preocupas por los demás, jamás les adelantarás."/>
+<p data="2" label="No por mucho madrugar amanece más temprano."/>
+<p data="3" label="La mejor defensa es un buen ataque."/>
+</p1>
+<p2 txt="Tres compañeros optáis a la última plaza y, por CV, tú eres el que tiene menos posibilidades, ¿cómo actúas?">
+<txt><![CDATA[Tres compañeros optáis a la última plaza y, por CV, tú eres el que tiene menos posibilidades, <b>¿cómo actúas?</b>]]></txt>
+<p data="0" label="Luchas hasta el final, ¡tú estás más capacitado que nadie!"/>
+<p data="1" label="Lo intentas aún sabiendo que no tienes nada que hacer."/>
+<p data="2" label="Tiras la toalla, los otros se lo merecen más. ¡Otra vez será!"/>
+<p data="3" label="No te resignas y mandas un jamón a los de RRHH."/>
+</p2>
+<p3 txt="Es viernes a última hora. El jefe te pide que te quedes para resolver unos temas. ¿Qué haces?">
+<txt><![CDATA[Es viernes a última hora. El jefe te pide que te quedes para resolver unos temas. <b>¿Qué haces?</b>]]></txt>
+<p data="0" label="Callas y haces lo que te pide. Al fin y al cabo es tu jefe."/>
+<p data="1" label="Le preguntas si no lo puedes dejar para el lunes."/>
+<p data="2" label="Le dices que tu horario termina a las siete y te vas."/>
+<p data="3" label="Intentas hacerlo rápidamente para marcharte cuanto antes."/>
+</p3>
+<p4 txt="Si no consigues entrar pensarás:">
+<txt><![CDATA[<b>Si no consigues entrar</b> pensarás:]]></txt>
+<p data="0" label="Es terrible, nunca conseguiré lo que me propongo."/>
+<p data="1" label="No saben al participante que se han perdido."/>
+<p data="2" label="Pensándolo bien, creo que lo iba a hacer bien."/>
+<p data="3" label="Algún desalmado ha dado malas referencias de mí."/>
+</p4>
+<p5 txt="¿En tu trabajo te sientes estresado/a?">
+<txt><![CDATA[¿En tu trabajo <b>te sientes estresado/a?</b>]]></txt>
+<p data="0" label="No."/>
+<p data="1" label="Un poco, a veces se me cierra un ojo."/>
+<p data="2" label="Sí."/>
+<p data="3" label="Mucho, necesito unas vacaciones."/>
+</p5>
+</preguntas>
+</combos>

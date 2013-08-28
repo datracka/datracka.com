@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>.:Eristoff Internative Festival:.</title>
+	<script type="text/javascript" src="swfobject.js"></script>
+	<script src="js/eristoff.js" language="javascript" type="text/javascript"></script>
+	<script type="text/javascript" src="facebookconnectobject.js"></script>
+	<script src="js/jquery-1.4.2.min.js"></script>
+	<script src="AC_RunActiveContent.js"></script>
+	<script type="text/javascript">
+	
+		var windowWidth;
+		var windowHeight;
+		
+		function iniciar(){
+			$("#visualizadorBody").css("opacity","0");
+			$("#visualizadorBody").css("display","block");
+			
+			window.setTimeout(function() {
+				$("#visualizadorBody").css("display","none");
+				$("#visualizadorBody").css("opacity","100");
+			}, 2000);
+				
+		}
+	
+		function permisosFacebook(){
+			FB.Connect.showPermissionDialog("share_item",function(x){
+				document["flashcontent"].permisosConcedidos("true");
+			});
+		}
+		
+		function showVisualizador(param){
+			if(param == 'true'){
+				$("#visualizadorcontent").fadeIn(1500, function(){
+					$("#visualizadorBody").fadeIn(1500);
+				});
+
+			} else {
+				$("#visualizadorBody").fadeOut(1500, function(){
+					$("#visualizadorcontent").fadeOut(1500);
+				});
+			}
+		}
+		
+		function showFacebook(param){
+			if(param == 'true'){
+				$('#facebookcontent').css("display", "block");
+				
+			} else {
+				$('#facebookcontent').css("display", "none");
+			}
+		}
+		
+		 
+		 
+		function getURLParam(strParamName){
+			var strReturn = "";
+			var strHref = window.location.href;
+			if ( strHref.indexOf("?") > -1 ){
+				var strQueryString = strHref.substr(strHref.indexOf("?")).toLowerCase();
+				var aQueryString = strQueryString.split("&");
+				for ( var iParam = 0; iParam < aQueryString.length; iParam++ ){
+					if (aQueryString[iParam].indexOf(strParamName.toLowerCase() + "=") > -1 ){            
+						strReturn = strHref.substr(strHref.indexOf("?")).split("&")[iParam].split("=")[1];
+						break;
+					}
+				}
+			}
+			return unescape(strReturn);
+		}
+		
+		function redimension(){
+		
+			var limitX = 1129;
+			var limitY = 769;
+
+	
+			var diffWidth = windowWidth - parseInt($(window).width());
+			var diffHeight = windowHeight - parseInt($(window).height());
+
+			var leftNew = parseInt($("#facebookcontent").css("left")) - diffWidth;
+			var topNew = parseInt($("#facebookcontent").css("top")) - diffHeight;					
+			
+			if($(window).width() < limitX) {
+				$('#flashcontent').css('width', limitX+'px');
+				//$('#visualizadorcontent').css('width', limitX+'px');
+				//$('#visualizadorcontent').css('width', limitX+'px');
+				//$('#visual').css('width', limitX+'px');
+				$('body').css('overflow-x','auto');
+			}else{
+				$('#flashcontent').css('width','100%');
+				//$('#visualizadorcontent').css('width', windowWidth - diffWidth + 'px');
+				//$('#visual').css('width', windowWidth - diffWidth + 'px');
+				$('body').css('overflow','hidden');
+								
+				//$("#facebookcontent").css("left", leftNew + "px");
+				
+				if($('#site')) {
+					$('#site').css('width','100%');
+				}
+			}
+			
+			if($(window).height() < limitY) {
+				$('#flashcontent').css('height', limitY+'px');
+				//$('#visualizadorcontent').css('height', limitY+'px');
+				//$('#visual').css('height', limitY+'px');
+				$('body').css('overflow-y','auto');
+			}else{
+				$('#flashcontent').css('height','100%');
+				//$('#visualizadorcontent').css('height', windowHeight - diffHeight + 'px');
+				//$('#visual').css('height', windowHeight - diffHeight + 'px');
+				$('body').css('overflow','hidden');
+				
+				//$("#facebookcontent").css("top", topNew + "px");	
+				
+				if($('#site')) {
+					$('#site').css('height','100%');
+				}
+			}
+			
+			windowWidth = parseInt($(window).width());
+			windowHeight = parseInt($(window).height());
+		}
+		
+		$(document).ready(function(){
+			windowWidth = parseInt($(window).width());
+			windowHeight = parseInt($(window).height());
+			
+			var topVisualizador = parseInt($(document).height()/2) - parseInt($("#visual").css("height"))/2;
+			var leftVisualizador = parseInt($(document).width()/2) - parseInt($("#visual").css("width"))/2;
+			$("#visual").css("margin-top", topVisualizador + "px");
+			$("#visual").css("margin-left", leftVisualizador + "px");
+			$("#facebookcontent").css("margin-top", topVisualizador + "px");
+			$("#facebookcontent").css("margin-left", leftVisualizador + "px");
+			
+			redimension();			
+		});
+		$(window).resize(function() {
+			redimension();
+		});
+	
+	</script>
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body style="background-color:#000; margin:0px; padding:0px;">
+	<script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
+	
+	<div id="flashcontent" style="background-color:#000000; height:769px; width:1129px; position:absolute; display:block">
+	<script language="javascript">
+            if (AC_FL_RunContent == 0) {
+                alert("Esta página requiere el archivo AC_RunActiveContent.js.");
+            } else {
+                AC_FL_RunContent(
+                    'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0',
+                    'width', '100%',
+                    'height', '100%',
+                    'src', 'site',
+                    'quality', 'high',
+                    'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+                    'align', 'middle',
+                    'play', 'true',
+                    'loop', 'true',
+                    'scale', 'showall',
+                    'wmode', 'transparent',
+                    'devicefont', 'false',
+                    'id', 'site',
+                    'bgcolor', '#000000',
+                    'name', 'site',
+                    'menu', 'true',
+                    'allowFullScreen', 'true',
+                    'allowScriptAccess','always',
+                    'movie', 'site',
+                    'salign', ''
+                    ); //end AC code
+            }
+        </script>
+        <noscript>
+            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="100%" height="100%" id="site" align="middle">
+                <param name="allowScriptAccess" value="always" />
+                <param name="allowFullScreen" value="true" />
+                <param name="movie" value="site.swf" />
+                <param name="quality" value="high" />
+                <param name="bgcolor" value="#000000" />
+                <param name="wmode" value="transparent"                />
+                <embed src="site.swf" quality="high" bgcolor="#000000" width="100%" height="100%" name="site" align="middle" allowScriptAccess="always" allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+            </object> 
+        </noscript>
+	</div>
+	
+	
+	<div id="visualizadorcontent"  style="height:100%; width:100%; position:absolute; top:0px; left:0px; display:none; background-color:#000000;"></div>
+    <div id="visualizadorBody" style="height:768px; width:1129px; display:none;">
+        <div id="visual" style="height:768px; width:1129px;position:absolute; top:0px; left:0px;">
+            <script language="javascript">
+                   if (AC_FL_RunContent == 0) {
+                        alert("Esta página requiere el archivo AC_RunActiveContent.js.");
+                    } else {
+                        AC_FL_RunContent(
+                            'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0',
+                            'width', '100%',
+                            'height', '100%',
+                            'src', 'visualizador',
+                            'quality', 'high',
+                            'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+                            'align', 'middle',
+                            'play', 'true',
+                            'loop', 'true',
+                            'scale', 'showall',
+                            'wmode', 'transparent',
+                            'devicefont', 'false',
+                            'id', 'visualizador',
+                            'bgcolor', '#000000',
+                            'name', 'visualizador',
+                            'menu', 'true',
+                            'allowFullScreen', 'true',
+                            'allowScriptAccess','always',
+                            'movie', 'visualizador',
+                            'salign', ''
+                            ); //end AC code
+                    }
+            </script>
+            <noscript>
+                    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="100%" height="100%" id="visualizador" align="middle">
+                        <param name="allowScriptAccess" value="always" />
+                        <param name="allowFullScreen" value="true" />
+                        <param name="movie" value="visualizador.swf" />
+                        <param name="quality" value="high" />
+                        <param name="bgcolor" value="#000000" />
+                        <param name="wmode" value="transparent"                />
+                        <embed src="visualizador.swf" quality="high" bgcolor="#000000" width="100%" height="100%" name="visualizador" align="middle" allowScriptAccess="always" allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+                    </object> 
+            </noscript>
+        </div>
+        <div id="facebookcontent" style="position:absolute; top:325px; left:800px; width:270px; height:272px;">
+            <iframe src="http://www.facebook.com/plugins/livefeed.php?app_id=123594934344156&amp;width=266&amp;height=270" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:266px; height:270px;" allowTransparency="true"></iframe>
+        </div>
+    </div>
+	 <script type="text/javascript">
+		iniciar();
+	 </script>
+</body>
+</html>

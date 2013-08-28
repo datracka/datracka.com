@@ -1,0 +1,449 @@
+<?
+class datos{	
+
+	var $idioma;
+	var $nombre;
+	var $profesion; 
+	var $cp;
+	var $email;
+	var $telefono; 
+	var $direccion;
+	var $foto;
+	var $provincia;
+	var $edad;
+	
+	var $P1;
+	var $P2;
+	var $P3;
+	var $P4; 
+	var $P5;  		
+	
+	var $pareja;
+	var $nombre_par;
+	var $email_par;
+	var $telefono_par;
+	var $abierta1;
+	
+	var $md5;
+	var $puntuacion;
+	var $exclusion;	
+	var $puntuaciones = array("P1"  => array ("undefined" => 0, 0 => 1, 1 => 5, 2 => 2, 3 => 3),
+														"P2"  => array ("undefined" => 0, 0 => 5, 1 => 2, 2 => 1, 3 => 3),
+														"P3"  => array ("undefined" => 0, 0 => 3, 1 => 2, 2 => 1, 3 => 5),
+														"P4"  => array ("undefined" => 0, 0 => 2, 1 => 5, 2 => 1, 3 => 3),
+														"P5"  => array ("undefined" => 0, 0 => 1, 1 => 2, 2 => 3, 3 => 5),
+														"direccion" => 5,
+														"cp" => 5,
+														"foto" => 10,
+														"nombre_par" => 10,
+														"email_par" => 10,
+														"telefono_par" => 10
+														);
+	var $tipoEmail;
+	var $emails;
+									
+
+	function datos(){}
+	
+	function cogeDatosFormulario($in){
+		
+		$this->idioma = $in->get("idioma");
+		$this->nombre = $in->get("nombre");
+		$this->profesion = $in->get("profesion");
+		$this->cp = $in->get("cp");
+		$this->email = $in->get("email");
+		$this->telefono = $in->get("telefono");
+		$this->direccion = $in->get("direccion");
+		$this->foto = $in->get("foto");
+		$this->provincia = $in->get("provincia");
+		$this->edad = $in->get("edad");
+		
+		$this->P1 = $in->get("P1");
+		$this->P2 = $in->get("P2");
+		$this->P3 = $in->get("P3");
+		$this->P4 = $in->get("P4");
+		$this->P5 = $in->get("P5");				
+		
+		$this->nombre_par = $in->get("nombre_par");	
+		$this->email_par = $in->get("email_par");
+		$this->telefono_par = $in->get("telefono_par");
+		$this->abierta1 = $in->get("abierta1");		
+		
+		$this->tipoEmail="acompanyant";
+
+	}	
+
+	function cogeDatosMailInfo($in){
+		
+		$this->idioma = $in->get("idioma");
+		$this->nombre_par = $in->get("nombre");			
+		$this->email_par =  $in->get("email");	
+
+	}	
+
+	function cogeDatosEnvioInfo($nombre,$email){
+		
+		$this->idioma = "es";
+		$this->nombre = "Lagranevasion";
+		$this->email = "info@lagranevasion.es";
+		$this->nombre_par = $nombre;			
+		$this->email_par =  $email;	
+		
+		$this->tipoEmail="info";
+	}		
+			
+	
+	function cogeDatosEnviaAmigo($in){
+		
+		$this->idioma = $in->get("idioma");
+		$this->email =  $in->get("email");	
+		$this->nombre = $in->get("email");			
+		$this->email_par =  $in->get("email_par");	
+		$this->subject =  $in->get("subject");		
+		$this->mensaje =  $in->get("mensaje");	
+		
+		$this->tipoEmail="enviaAmigo";
+	}	
+	
+	function calcularPareja(){	
+		
+		if(strcmp($this->nombre_par,"")!=0 ||
+			 strcmp($this->email_par,"")!=0 ||
+			 strcmp($this->telefono_par,"")!=0)
+		$this->pareja = 1;
+		else 	$this->pareja = 0;
+	}
+	function calcularPuntuacion(){
+		
+		$this->puntuacion = 0;
+		$this->puntuacion += $this->puntuaciones["P1"][$this->P1]+
+												 $this->puntuaciones["P2"][$this->P2]+
+												 $this->puntuaciones["P3"][$this->P3]+
+												 $this->puntuaciones["P4"][$this->P4]+
+												 $this->puntuaciones["P5"][$this->P5];
+												 
+		if(strcmp($this->foto,"")!=0)$this->puntuacion += $this->puntuaciones["foto"];			
+		if(strcmp($this->direccion,"")!=0)$this->puntuacion += $this->puntuaciones["direccion"];
+		if(strcmp($this->cp,"")!=0)$this->puntuacion += $this->puntuaciones["cp"];
+		if(strcmp($this->nombre_par,"")!=0)$this->puntuacion += $this->puntuaciones["nombre_par"];
+		if(strcmp($this->email_par,"")!=0)$this->puntuacion += $this->puntuaciones["email_par"];
+		if(strcmp($this->telefono_par,"")!=0)$this->puntuacion += $this->puntuaciones["telefono_par"];
+								 
+	}
+	
+	function mirarExisteixRegistrat(){
+		global $db;
+		
+		$sql = "SELECT * FROM usuaris WHERE email='$this->email'";
+		$result = $db->sql_query($sql,true);
+		$num_rows = $db->sql_numrows($result);
+
+		if($num_rows != 0)return true;	
+		else return false;
+	}
+
+	function mirarExisteixComACompany(){
+		global $db;
+		
+		$sql = "SELECT * FROM usuaris WHERE email_par='$this->email'";
+		$result = $db->sql_query($sql,true);
+		$num_rows = $db->sql_numrows($result);
+
+		if($num_rows != 0)return true;	
+		else return false;
+	}
+	
+	function mirarParejaExisteixRegistrat(){
+		global $db;
+				
+		if($this->pareja==1){
+			$sql = "SELECT * FROM usuaris WHERE email='$this->email_par'";
+			$result = $db->sql_query($sql,true);
+			$num_rows = $db->sql_numrows($result);
+	
+			if($num_rows != 0)return true;	
+			else return false;
+		}else return false;
+		
+	}
+
+	function mirarParejaExisteixComACompany(){
+		global $db;
+		
+		if($this->pareja==1){
+			$sql = "SELECT * FROM usuaris WHERE email_par='$this->email_par'";
+			$result = $db->sql_query($sql,true);
+			$num_rows = $db->sql_numrows($result);
+	
+			if($num_rows != 0)return true;	
+			else return false;
+		}else return false;
+	}				
+	
+	function mirarExisteixRegistratInfo(){
+		global $db;
+		
+		$sql = "SELECT * FROM usuarisInfo WHERE email='$this->email_par'";
+		$result = $db->sql_query($sql,true);
+		$num_rows = $db->sql_numrows($result);
+
+		if($num_rows != 0)return true;	
+		else return false;
+	}	
+		
+	function mirarExclusion(){
+
+		if($this->provincia!=30){
+				//echo "entra foto=".strcmp($this->foto,"")." provincia=".!strcmp($this->provincia,30)." trabajador=".strcmp($this->trabajador,2);
+				$this->exclusion = 1;
+			}
+		else{
+				$this->exclusion = 0;
+				//echo "entra foto=".strcmp($this->foto,"")." provincia=".!strcmp($this->provincia,30)." trabajador=".strcmp($this->trabajador,2);
+		}
+
+	}
+	
+	function creaMD5(){
+		$this->md5 = $this->cp.$this->email.rand().time();
+		$this->md5= md5($this->md5);
+	}
+	
+	function insertaDatos(){
+		global $db;
+		
+		$sql="INSERT INTO usuaris(nombre,profesion,cp,email,telefono,direccion,foto,provincia,edad,
+		P1,P2,P3,P4,P5,
+		pareja,nombre_par,email_par,telefono_par,abierta1,
+		estado_auto,puntuacion_auto,fecha_insercion,fecha_ultim,md5)
+		
+	  VALUES('$this->nombre','$this->profesion','$this->cp','$this->email','$this->telefono','$this->direccion','$this->foto','$this->provincia','$this->edad',
+	  '$this->P1','$this->P2','$this->P3','$this->P4','$this->P5',
+	  '$this->pareja','$this->nombre_par','$this->email_par','$this->telefono_par','$this->abierta1',
+	  '$this->exclusion','$this->puntuacion',NOW(),NOW(),'$this->md5')";
+		$res=$db->sql_query($sql);
+		
+		//echo $sql;
+		if($res) return true; 
+		else return false; 
+	}
+	
+	function insertaDatosMailInfo(){
+	
+		global $db;
+	
+		$sql="INSERT INTO usuarisInfo(nombre,email,fecha) VALUES('$this->nombre_par','$this->email_par',NOW())";
+		//echo $sql;
+		$res=$db->sql_query($sql);
+		
+		return $res;
+	}
+	function insertaDatosEnviarAmigo(){
+	
+		global $db;
+	
+		$sql="INSERT INTO usuarisEnviaAmigo(email,emails,fecha) VALUES('$this->email','$this->email_par',NOW())";
+		//echo $sql;
+		$res=$db->sql_query($sql);
+		
+		return $res;
+	}	
+
+	function comprobacioDades(){
+		$resp = "Valides";
+		if(!$this->validarTexto($this->nombre,50)) $resp = "Nombre";
+		if(!$this->validarTexto($this->profesion,50)) $resp = "Profesion";
+		//if(!$this->validarCP($this->cp)) $resp = "Codigo Postal";
+		if(!$this->validarEmail($this->email)) $resp = "Email";
+		if(!$this->validarTelefono($this->telefono)) $resp = "Telefono";
+		//if(!$this->validarTexto($this->direccion,50)) $resp = "Direccion";
+		$this->validarFoto($this->foto);
+		if(!$this->validarInt($this->provincia)) $resp = "Provincia";
+		if(!$this->validarEdad($this->edad)) $resp = "Edad";
+		
+		/*if(!$this->validarInt($this->P1)) $resp = "P1";
+		if(!$this->validarInt($this->P2)) $resp = "P2";
+		if(!$this->validarInt($this->P3)) $resp = "P3";
+		if(!$this->validarInt($this->P4)) $resp = "P4";
+		if(!$this->validarInt($this->P5)) $resp = "P5";*/
+						
+		if($this->pareja==1){//Tiene pareja
+			if(!$this->validarTexto($this->nombre_par,50)) $resp = "Nombre Pareja";
+			if(!$this->validarEmail($this->email_par)) $resp = "Email Pareja";
+			if(!$this->validarTelefono($this->telefono_par)) $resp = "Telefono Pareja";
+		}
+			
+		return $resp;
+	}	
+	
+	function comprobacioDadesMailInfo(){	
+		$resp = "Valides";
+		if(!$this->validarTexto($this->nombre_par,50)) $resp = "Nombre";
+		if(!$this->validarEmail($this->email_par)) $resp = "Email";
+		return $resp;
+	}
+	function comprobacioDadesEnviaAmigo(){	
+		$resp = "Valides";
+		if(!$this->validarEmail($this->email)) $resp = "De";
+		if(!$this->validarEmails($this->email_par)) $resp = "Para";
+		return $resp;
+	}	
+	
+	function validarFoto($md5){ 
+		$uploadDirThumb = "img/";	
+		$nivel=substr($md5, 0, 2);	
+		$pathThumb=$uploadDirThumb."$nivel/$md5/imagen.jpg";
+		if(!file_exists($pathThumb))$this->foto="";
+	}	
+		
+	function validarTexto($valor,$largo){ 	
+		if( strlen($valor) > $largo || strlen($valor)==0 )return false; 
+		return true; 
+	}	
+	function validarInt($valor){ 
+		if (is_numeric($valor))return true; 
+		return false; 
+	}
+/*	function validarDni($valor){ 
+		if($this->validarTexto($valor,9)){
+				if($this->validarInt(substr($valor,0,8))){
+					if(!$this->validarInt(substr($valor,-1,1)))return true;
+				}	
+		}
+		return false;	
+	}*/
+	function validarCP($valor){ 
+		if($this->validarTexto($valor,5)){
+				if($this->validarInt($valor))return true;
+		}
+		return false;	
+	}
+	function validarTelefono($valor){ 
+		if($this->validarTexto($valor,25)){
+			if($this->validarInt($valor))return true; 
+		}	
+		return false;	
+	}	
+	function validarEdad($valor){ 		
+		//if( strlen($valor) > 10 || strlen($valor) < 10 )return false; 
+		if($this->validarTexto($valor,10))return true; 
+				
+		/*$dates=split(",",$valor); 
+		$dates[0];
+		$dates[1];
+		$dates[2];*/
+		return false;		
+	}
+	function validarEmail($valor){ 	
+		if(check_email_mx($valor))return true; 
+		return false; 
+	}
+	function validarEmails($valor){
+		$resp = true;
+		$this->emails=split(",",$valor); 	
+		foreach($this->emails as $key => $value){
+			if(!check_email_mx($value))$resp = false; 
+		}
+		return $resp; 
+	}			
+	function check_email_mx($email) { 
+		if( (preg_match('/(@.*@)|(\.\.)|(@\.)|(\.@)|(^\.)/', $email)) || 
+			(preg_match('/^.+\@(\[?)[a-zA-Z0-9\-\.]+\.([a-zA-Z]{2,3}|[0-9]{1,3})(\]?)$/',$email)) ) { 
+			$host = explode('@', $email);
+			if(checkdnsrr($host[1].'.', 'MX') ) return true;
+			if(checkdnsrr($host[1].'.', 'A') ) return true;
+			if(checkdnsrr($host[1].'.', 'CNAME') ) return true;
+		}
+		return false;
+	} 	
+	
+	function enviarMails(){	
+		$res = true;
+		foreach($this->emails as $key => $value){
+			//echo $key.$value;
+			$this->email_par = $value;
+			if(!$this->enviarMail())$res = false;
+		}
+	return $res;	
+	}
+	function envioMailsInfo($table){
+		global $db;	
+		$sql = "SELECT DISTINCT `id` ,`nombre` ,`email` FROM ".$table;
+		$result = $db->sql_query($sql,true);
+		$respuesta .="sql=".$sql."<br>";
+ 		$respuesta .="INICIA:<br>";
+	  while($fila = $db->sql_fetchrow($result)){
+	      $id = $fila['id'];
+	      $nombre=$fila['nombre'];
+	      //$email=$fila['email'];
+	      $email="litusbenito@hotmail.com";
+	      $this->cogeDatosEnvioInfo($nombre,$email);
+	      if($this->enviarMail()) $respuesta .= "OK al:$id-$email<br>";
+	      else $respuesta .= "Error de envio al:$id-$email<br>"; 
+	  }
+	$respuesta .="TERMINA****************************";
+	return $respuesta;
+	}
+	function enviarMail(){
+		global $db;		
+
+	 $subject = array("acompanyant" => array ("es" => $this->nombre_par." , eres acompañante Bongo",
+	 																				  "en" => $this->nombre_par." , eres acompañante Bongo Inglés"),
+										"info"  			=> array ("es" => "Bongo",
+	 																					"en" => "Bongo Inglés"),
+										"enviaAmigo" 	=> array ("es" => $this->subject,
+	 																					"en" => $this->subject) 																		
+										);
+		
+		if($this->idioma!="es" && $this->idioma!="en")
+			$this->idioma="es";
+
+		ob_start();
+		readfile("./email/".$this->tipoEmail."/email_".$this->idioma.".html");
+		$html=ob_get_contents();
+		ob_end_clean();
+			
+		$html=eregi_replace("__NOMBRE__",$this->nombre,$html);
+		$html=eregi_replace("__NOMBRE_AMIGO__",$this->nombre_par,$html);
+		$html=eregi_replace("__MENSAJE__",$this->mensaje,$html);	
+	
+	  $mail = new phpmailer();
+	  $mail->Priority = 3;
+		$mail->Encoding = "8bit";
+		$mail->CharSet = "iso-8859-1";
+	  $mail->Mailer = "smtp";
+	  $mail->Host = "localhost";
+	  $mail->Timeout=30;
+		$mail->IsHTML(true);
+		$mail->WordWrap = 0; 	      
+		$mail->Port = 25;  
+	  $mail->SMTPAuth = false;
+	  $mail->PluginDir = "inc/includes_php_mailer/";
+	  
+	  $mail->From = $this->email;
+	  $mail->FromName = $this->nombre;
+		$mail->AddReplyTo($this->email, $this->nombre);
+		$mail->Sender = $this->email;  
+	
+		$mail->AddAddress($this->email_par,$this->nombre_par);
+	  $mail->Subject = $subject[$this->tipoEmail][$this->idioma];
+	  $mail->Body = $html;
+	  $mail->AltBody = "";
+
+	  $exito = $mail->Send();
+	
+	  $intentos=1; 
+	  while ((!$exito) && ($intentos < 5)) {
+		sleep(5);
+	     	//echo $mail->ErrorInfo;
+	     	$exito = $mail->Send();
+	     	$intentos=$intentos+1;	
+	   }
+	 
+	  if($exito)	return true;
+		else	return false;
+			
+ 
+	} 		
+}
+?>

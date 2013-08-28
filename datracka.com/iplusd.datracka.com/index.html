@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>.:: Be my friend ::.</title>
+<script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+   api_key: N8MaLJ2EOff3WrYJ-Ik0FhldBbpb0KlZ0cLzIxxOjcAtMMx6j_-400522JZJa6e9
+   authenticate: true
+</script>
+</head>
+<body>
+<p>This example demonstrates how to retrieve a user's connections.  It also uses the LinkedIn auth events (load, login, logout) to control behavior.</p>
+
+<!-- NOTE: be sure to set onLoad: onLinkedInLoad -->
+<script type="text/javascript">
+function onLinkedInLoad() {
+  IN.Event.on(IN, "auth", function() {onLinkedInLogin();});
+  IN.Event.on(IN, "logout", function() {onLinkedInLogout();});
+}
+
+function onLinkedInLogout() {
+  setConnections({}, {total:0});
+}
+
+function onLinkedInLogin() {
+  // here, we pass the fields as individual string parameters
+  IN.API.Connections("me")
+    .fields("id", "firstName", "lastName", "pictureUrl", "publicProfileUrl")
+    .result(function(result, metadata) {
+      setConnections(result.values, metadata);
+    });
+}
+
+function setConnections(connections) {
+
+  var flag = false;
+  for (id in connections) {
+	  if (connections[id].id == 'pQvG0wglwM'){
+		  flag = true;
+	  }
+  }
+  
+  if (!flag){ // enviamos invitación:
+  	 
+	      var xml = "<?xml version='1.0' encoding='UTF-8'?><mailbox-item><recipients><recipient><person path='/people/email=datracka@hotmail.com'><first-name>Vicens</first-name><last-name>Fayos</last-name></person></recipient></recipients><subject>invitacion a conectar</subject><body>Por favor, aceptame</body>					  <item-content><invitation-request><connect-type>friend</connect-type></invitation-request></item-content></mailbox-item>";
+		  $.ajax({
+					data: xml,
+					type: "POST",
+					dataType: "xml",
+					async: false,
+					url: "http://api.linkedin.com/v1/people/~/mailbox",
+					success: function(data){ 
+						alert(data);
+					}
+			   });
+
+		 
+
+  
+  
+	
+  }
+}
+</script>
+<script type="IN/Login">
+	<div id="connectionstest">
+	  <p>Current User's Connections:</p>
+	  <div id="connectionsdata"></div>
+	</div>
+</script>
+</body>
+</html>
+<script language="javascript">
+	onLinkedInLoad();
+</script>

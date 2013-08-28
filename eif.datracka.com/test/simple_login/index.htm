@@ -1,0 +1,21 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<script type="text/javascript" src="swfobject.js"></script>
+	<script type="text/javascript" src="facebookconnectobject.js"></script>
+</head>
+<body>
+	<script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
+	<div id="flashcontent"></div>
+	<script type="text/javascript">
+		var flashvars = {};
+		flashvars.as_swf_name = "flashcontent";
+		var params = {};
+		params.wmode = "opaque";
+		params.scale = "noscale";
+		var attributes = {};
+		swfobject.embedSWF("SimpleLogin.swf", "flashcontent", "100%", "100%", "9.0.0", false, flashvars, params, attributes);
+
+		fbInit("flashcontent", "ca06ca52ff5bc8754c7bfbd8ad1262ae", "xd_receiver.htm");
+	</script>
+</body>
+</html>

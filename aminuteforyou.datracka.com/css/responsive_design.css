@@ -1,0 +1,256 @@
+
+body{
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.share{
+    height: 30px;
+    background-color: #efefef;
+}
+
+.shareWrapper{
+    height: 30px;
+    background-color: #efefef;
+    width:920px;
+    margin: 0 auto;
+    text-align: right;
+}
+.header {
+    height: 108px;
+    background-color: #fff;
+}
+
+.linkToFb{
+    opacity: 0.8;
+}
+
+.linkToTw{
+    opacity: 0.8;
+}
+
+.linkToFb:hover{
+    opacity: 1;
+}
+
+.linkToTw:hover{
+    opacity: 1;
+}
+
+.meerkat{
+    margin-left: 350px;
+    margin-top: 28px;
+}
+.content{
+    height: 612px;
+    background-color: #4dbcc9;
+    width: 100%;
+}
+
+.wrapperContent{
+    margin: 0 auto;
+    width: 1020px;
+    padding-top: 128px;
+}
+
+.videoBox{
+    float: left;
+    width: 560px;
+    padding: 20px;
+    padding-bottom: 30px;
+
+    background-color: #5fc3cf;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 2px 2px 0 #4dbcc9;
+    -webkit-box-shadow: 0 2px 2px 0 #4dbcc9;
+    box-shadow: 0 2px 2px 0 #4dbcc9;
+}
+
+
+.text{
+    width: 370px;
+    margin-left: 40px;
+    float:left;
+}
+.text p{
+
+    font-family: "myriad-pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.625em;
+
+}
+
+.text p.explanation{
+    font-size: 1.225em;
+}
+
+.button{
+
+    padding: 32px 23px;
+    border: 1px solid #000;
+    line-height: 17px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    background-color: #0098aa;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #00b6e8;
+    background-image: -moz-linear-gradient(top, #00c9ff, #0099c6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00c9ff), to(#0099c6));
+    background-image: -webkit-linear-gradient(top, #00c9ff, #0099c6);
+    background-image: -o-linear-gradient(top, #00c9ff, #0099c6);
+    background-image: linear-gradient(to bottom, #00c9ff, #0099c6);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00c9ff', endColorstr='#ff0099c6', GradientType=0);
+    border-color: #0099c6 #0099c6 #005e7a;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btnFacebook{
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #3a599d;
+    background-image: -moz-linear-gradient(top, #4265b2, #2f477d);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4265b2), to(#2f477d));
+    background-image: -webkit-linear-gradient(top, #4265b2, #2f477d);
+    background-image: -o-linear-gradient(top, #4265b2, #2f477d);
+    background-image: linear-gradient(to bottom, #4265b2, #2f477d);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4265b2', endColorstr='#ff2f477d', GradientType=0);
+    border-color: #2f477d #2f477d #1a2745;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    padding: 12px 40px;
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-top: 20px;
+    border-color: #0099c6 #0099c6 #005e7a;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.btnTwitter{
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #00b6e8;
+    background-image: -moz-linear-gradient(top, #00c9ff, #0099c6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00c9ff), to(#0099c6));
+    background-image: -webkit-linear-gradient(top, #00c9ff, #0099c6);
+    background-image: -o-linear-gradient(top, #00c9ff, #0099c6);
+    background-image: linear-gradient(to bottom, #00c9ff, #0099c6);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00c9ff', endColorstr='#ff0099c6', GradientType=0);
+    border-color: #0099c6 #0099c6 #005e7a;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    padding: 12px 40px;
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+.footer{
+     width: 100%;
+     position: absolute;
+     bottom: 0px;
+     height:40px;
+     background-color: #a7a7a7;
+     text-align: center;
+
+}
+
+.site{
+    text-align: center;
+    font-family: "myriad-pro", sans-serif;
+    font-style: normal;
+
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.site h2{
+    webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-family: "myriad-pro-condensed",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    font-size: 23px;
+    text-align: left;
+}
+
+.site p{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color: #565458;
+    font-weight: 400;
+    font-size: 1.125em;
+    font-style: normal;
+    line-height: 1.4;
+
+    line-height: 29px;
+    text-align: left;
+    margin-right: 56px;
+}
+
+.footer p{
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+.footer .email{
+    text-decoration: underline;
+    color: #000;
+}
+
+.footer .email:hover{
+    color:#efefef;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    body {
+        width: 400px;
+    }
+
+
+}

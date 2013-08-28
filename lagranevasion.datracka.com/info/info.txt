@@ -1,0 +1,19 @@
+FTP: lagranevasion.es
+u:lagranev
+p:lagran12
+BD:lagranev_lagranevasion
+
+correo:
+info@lagranevasion.es
+u:info+lagranevasion.es 
+p:lagran12
+rrhh@lagranevasion.es
+u:rrhh+lagranevasion.es
+p:lagran12
+
+google:
+http://www.google.es/webmasters/
+https://www.google.com/analytics
+
+user:	bongolagranevasion@gmail.com
+pwd:	sigfridmarine

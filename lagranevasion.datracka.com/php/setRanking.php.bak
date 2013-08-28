@@ -1,0 +1,11 @@
+<?
+include("cargar_includes.inc.php");
+
+
+$in = new input($_POST);
+$nombre = $in->get("nombre");
+$puntuacion = $in->get("puntuacion");
+
+setRanking($nombre,$puntuacion);
+
+?>

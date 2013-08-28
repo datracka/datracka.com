@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SONIDOS>
+  <sonido Var="DISTORSION_BOTELLA" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="true">./audio/distorsion_botella.mp3</sonido>
+  <sonido Var="DISTORSION_1" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/distorsion_bloggers_1.mp3</sonido>
+  <sonido Var="CLICK_FECHA" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/click_fecha_nacimiento.mp3</sonido>
+  <sonido Var="CLICK_ENTRAR" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/click_seleccion_menu.mp3</sonido>
+  <sonido Var="CLICK_MENU" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/click_seleccion_menu.mp3</sonido>
+  <sonido Var="CLICK_GRUPO" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/click_seleccion_menu.mp3</sonido>
+  <sonido Var="CLICK_PARTICIPA" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/click_seleccion_menu.mp3</sonido>
+  <sonido Var="CLICK_DESPLEGABLE" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/click_seleccion_menu.mp3</sonido>
+  <sonido Var="CLICK_REGISTRO" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/click_seleccion_menu.mp3</sonido>
+  <sonido Var="CLICK_MATERIALES" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/click_seleccion_menu.mp3</sonido>
+  <sonido Var="CLICK_RANKING" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/click_seleccion_menu.mp3</sonido>
+  <sonido Var="ROLLOVER_PASTILLA" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/rollover_pastilla_inicio.mp3</sonido>
+  <sonido Var="ROLLOVER_PESTANA" Type="Fx" Pan="0" Volume="1" Loops="1" StartTime="0" Leader="false">./audio/rollover_pestanas_inicio.mp3</sonido>
+  <sonido Var="SONIDO_LOBO" Type="Loop" Pan="0" Volume="0.5" Loops="1" StartTime="0" Leader="false">./audio/aullido.mp3</sonido>
+	<sonido Var="SONIDO_LOADING" Type="Loop"  Pan="0" Volume="0.5" Loops="0" StartTime="0" Leader="false">./audio/loading.mp3</sonido>
+	<sonido Var="SONIDO_0" Type="Loop" Pan="0" Volume="0.5" Loops="0" StartTime="0" Leader="false">./audio/loopbase.mp3</sonido>
+	<sonido Var="SONIDO_1" Type="Loop" Pan="0" Volume="0.5" Loops="0" StartTime="0" Leader="false">./audio/loop1.mp3</sonido>
+	<sonido Var="SONIDO_2" Type="Loop" Pan="0" Volume="0.5" Loops="0" StartTime="0" Leader="false">./audio/loop2.mp3</sonido>
+	<sonido Var="SONIDO_3" Type="Loop" Pan="0" Volume="0.5" Loops="0" StartTime="0" Leader="false">./audio/loop3.mp3</sonido>
+	<sonido Var="SONIDO_4" Type="Loop" Pan="0" Volume="0.5" Loops="0" StartTime="0" Leader="false">./audio/loop4.mp3</sonido>
+	<sonido Var="SONIDO_5" Type="Loop" Pan="0" Volume="0.5" Loops="0" StartTime="0" Leader="false">./audio/loop5.mp3</sonido>
+</SONIDOS>

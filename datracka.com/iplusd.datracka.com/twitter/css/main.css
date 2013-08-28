@@ -1,0 +1,63 @@
+body{
+	background-image:url("../img/blue_gradient.png");
+	background-repeat:repeat-x;
+	width:100%;
+	height:100%;
+	margin:0px;
+	font-family:verdana;
+	overflow:scroll;
+}
+	
+
+#content{
+	width:620px;
+	margin: 0px auto;
+	padding-top:45px;
+	background-color:yellow;
+	
+}
+
+#head{
+	width:620px;
+	height:150px;
+	background-color:green;
+	
+}
+
+#newPost{
+	width:100%;
+	height:180px;
+	background-color:red;
+}
+
+h2{
+	background-color:#00a;
+}
+form{
+	padding:0px;
+	margin:0px;
+}
+
+#txtPost{
+	padding:0px;
+	margin:0px;
+	width:600px;
+	height:100px;
+	margin:10px;
+	border:1px solid #000;
+	
+}
+
+#btnPost{
+	margin-left:550px;
+	
+}
+
+#posts > #post{
+	width:600px;
+	height:150px;
+	margin-left:10px;
+	border:1px solid #000;
+	}
+	
+	

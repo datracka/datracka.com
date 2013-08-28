@@ -1,0 +1,13 @@
+<?
+include("cargar_includes.inc.php");
+
+$in = new input($_POST);
+
+$datos = new datos();
+$respuesta .= $datos->envioMailsInfo();
+
+
+echo $respuesta;
+//xml_write($respuesta);
+
+?>

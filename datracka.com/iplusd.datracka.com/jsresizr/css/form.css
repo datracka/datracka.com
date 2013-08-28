@@ -1,0 +1,328 @@
+div#formulario{
+	width:880px;
+	margin:20px 0px 0px 68px;
+}
+
+div#introForm{
+	width:100%;
+	float:left;
+}
+div#introForm p#titConfirmacion{
+	width:220px;
+	float:left;
+}
+div#introForm p#txtIntro{
+	width:612px;
+	margin-left:30px;
+	margin-top:15px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+div#form{
+	width:100%;
+	margin-top:20px;
+	float:left;
+	border:1px solid #e4e1df;
+	background-color:#fff;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+fieldset, div#form p, div.cuestion, div.pregunta{
+	width:100%;
+	float:left;
+}
+
+fieldset{
+	border:0px solid #fff;
+}
+
+legend{
+	display:none;
+}
+
+div#form ul, div#form li{
+	margin:0px;
+	padding:0px;
+}
+
+div#form label{
+	width:100%;
+	margin-bottom:3px;
+	float:left;
+	font-weight:bold;
+	font-size:12px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+input, select{
+	width:100%;
+	height:25px;
+	float:left;
+	font-size:12px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	outline: none;
+}
+select{
+	height:31px;	
+	outline: none;
+}
+
+.error{
+	border: 1px solid #d20300;	
+}
+.lblError{
+	color: #d20300;	
+}
+
+div#introForm p#txtIntro.error{
+	border: 1px solid #d20300;
+	color: #d20300;	
+	
+	width:590px;
+	padding:5px 10px;
+}
+
+div#pregunta_1, div#pregunta_5{
+	display:none;
+}
+p#tituloPregunta_1,p#tituloPregunta_2,p#tituloPregunta_3,p#tituloPregunta_4{
+	display:none;
+}
+
+div#form div.pregunta div.cuestion{
+	margin-right:5px;
+	margin-bottom:20px;
+}
+div#c_particular_trato_1{
+	width:89px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_trato_1{
+	width:56px;
+}
+
+div#c_particular_nombre_1{
+	width:165px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_nombre_1{
+	width:153px;
+}
+
+div#c_particular_apellido1_1{
+	width:165px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_apellido1_1{
+	width:153px;
+}
+
+div#c_particular_apellido2_1{
+	width:381px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_apellido2_1{
+	width:153px;
+}
+
+div#c_particular_tipoVia_1{
+	width:89px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_tipoVia_1{
+	width:56px;
+}
+
+div#c_particular_nombreVia_1{
+	width:150px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_nombreVia_1{
+	width:138px;
+}
+
+div#c_particular_numeroVia_1{
+	width:68px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_numeroVia_1{
+	width:56px;
+}
+
+div#c_particular_complementoVia_1{
+	width:110px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_complementoVia_1{
+	width:98px;
+}
+
+div#c_particular_codigoPostal_1{
+	width:59px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_codigoPostal_1{
+	width:47px;
+}
+
+div#c_particular_localidad_1{
+	width:130px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_localidad_1{
+	width:118px;
+}
+
+div#c_particular_provincia_1{
+	width:159px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_provincia_1{
+	width:145px;
+}
+
+div#c_particular_tfnoFijo_1{
+	width:105px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_tfnoFijo_1{
+	width:93px;
+}
+
+div#c_particular_tfnoMovil_1{
+	width:135px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_tfnoMovil_1{
+	width:123px;
+}
+
+div#c_particular_email_1{
+	width:255px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+#particular_email_1{
+	width:243px;
+}
+
+div#pregunta_3{
+	min-height:110px;
+	width:862px;
+}
+
+div#c_asistencia_evento_1{
+	width:100%;
+	margin-bottom:10px;
+	float:left;
+	margin-right:5px;
+}
+div#c_asistencia_evento_1 input{
+	width:20px;
+	float:left;
+}
+
+div#c_asistencia_evento_1 #lbl_asistencia_evento_1_SI, div#c_asistencia_evento_1 #lbl_asistencia_evento_1_NO{
+	width:170px;
+	line-height:20px;
+	font-weight:normal;
+}
+
+div#c_asistencia_evento_acompanyad_1{
+	width:812px;
+	margin-left:50px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:20px;
+}
+div#c_asistencia_evento_acompanyad_1 input{
+	width:20px;
+}
+div#c_asistencia_evento_acompanyad_1 #lbl_asistencia_evento_acompanyad_1_ACOM, div#c_asistencia_evento_acompanyad_1 #lbl_asistencia_evento_acompanyad_1_NOAC{
+	width:760px;
+	line-height:20px;
+	font-weight:normal;
+}
+
+
+#lbl_asistencia_evento_1, #lbl_particular_lopdGeneral_1{
+	display:none;
+}
+
+div#c_particular_lopdGeneral_1{
+	width:700px;
+	margin-bottom:0px;
+	margin-top:0px;
+	float:left;
+	margin-right:5px;
+}
+div#c_particular_lopdGeneral_1 input{
+	width:20px;
+}
+div#c_particular_lopdGeneral_1 label#lbl_particular_lopdGeneral_1_PERMITIDO{
+	width:645px;
+	line-height:23px;
+	font-weight:normal;
+	display:block;
+}
+div#c_particular_lopdGeneral_1 label#lbl_particular_lopdGeneral_1_PERMITIDO a{
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:12px;
+}
+
+div#d_submitButton{
+	width:80px;
+	margin-top:-70px;
+	margin-left:762px;
+	padding-right:20px;
+	/*padding-bottom:20px;*/
+	float:left;
+}
+/* Ie7 */
+*+ html div#d_submitButton{
+	margin-top:-50px;
+}
+
+#submitButton{
+	width:80px;
+}
+
+div#aclaraciones{
+	width:100%;
+	margin-top:5px;
+	padding-bottom:20px;
+	float:left;
+	text-align:right;
+	font-size:10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#817b79;
+}

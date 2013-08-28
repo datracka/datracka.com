@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><respuesta tipo="iniciarSesion" resultado="OK"><sid>878a892827292a492f282c2b20282d2f28292a2d22238d</sid></respuesta>

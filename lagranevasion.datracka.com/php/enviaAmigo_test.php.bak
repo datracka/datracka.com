@@ -1,0 +1,20 @@
+<?php
+?>
+<html>
+<body>
+<form name="enviaAmigo" action="enviaAmigo.php" method="post">
+
+idioma: <input name="idioma" value="es"><br>
+
+email: <input name="email" value="cbenito@cpproximity.es"><br>
+email_par: <input name="email_par" value="cbenito@cpproximity.es;litusbenito@hotmail.com;egalan@cpproximity.es"><br>
+subject: <input name="subject" value="¡hola!"><br>
+mensaje: <input name="mensaje" value="Hola que tal, creo que esto te va a gustar.
+Entra aqui y ya verás!"><br>
+
+<input type="submit" name="enviar" value="enviar">
+</form>
+</body>
+</html>
+<?
+?>

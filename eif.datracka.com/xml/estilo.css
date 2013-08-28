@@ -1,0 +1,37 @@
+.normal{
+	font-family: "standard 07_54_8pt_st";
+	font-size: 8;
+	color: #000000;
+}
+
+.normal_azul{
+	font-family: "standard 07_54_8pt_st";
+	font-size: 8;
+	color: #227EC5;
+}
+
+.negrita_azul{
+	font-family: "standard 07_63_8pt_st";
+	font-size: 8;
+	color: #227EC5;
+}
+
+.negrita_negra{
+	font-family: "standard 07_63_8pt_st";
+	font-size: 8;
+	color: #000000;
+}
+
+.negrita_negra_centrada{
+	font-family: "standard 07_63_8pt_st";
+	font-size: 8;
+	color: #000000;
+	text-align:center;
+}
+
+.negrita_blanca{
+	font-family: "standard 07_63_8pt_st";
+	font-size: 8;
+	color: #FFFFFF;
+}
+

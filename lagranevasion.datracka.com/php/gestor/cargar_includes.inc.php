@@ -1,0 +1,12 @@
+<?
+include_once("../datos.php");
+include_once("../inc/propiedades.inc.php");
+include_once("../inc/mysql.inc.php");
+include_once("../inc/db.inc.php");
+include_once("../inc/funciones.inc.php");
+include_once("../inc/xml.inc.php");
+include_once("../inc/input_class.php");
+include_once("../inc/includes_php_mailer/class.phpmailer.php");
+include_once("../inc/includes_php_mailer/class.smtp.php");
+include_once("../inc/talentos.inc.php");
+?>

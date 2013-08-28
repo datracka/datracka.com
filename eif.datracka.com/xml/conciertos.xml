@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FESTIVAL>
+	<CONCIERTO Var="THE PINKER TONES">
+		<VIDEOS>
+			<VIDEO Video="video/pinkertones/1_tokio.flv" Foto="video/pinkertones/fotos/foto1.jpg" />
+			<VIDEO Video="video/pinkertones/2_Gameboy music.flv" Foto="video/pinkertones/fotos/foto2.jpg" />
+			<VIDEO Video="video/pinkertones/3_Sampleame.flv" Foto="video/pinkertones/fotos/foto3.jpg" />
+			<VIDEO Video="video/pinkertones/4_Polos opuestos.flv" Foto="video/pinkertones/fotos/foto4.jpg" />
+			<VIDEO Video="video/pinkertones/5_Invisible.flv" Foto="video/pinkertones/fotos/foto5.jpg" />
+			<VIDEO Video="video/pinkertones/6_Sexy robot vs 24.flv" Foto="video/pinkertones/fotos/foto6.jpg" />
+			<VIDEO Video="video/pinkertones/7_Viajes.flv" Foto="video/pinkertones/fotos/foto7.jpg" />
+			<VIDEO Video="video/pinkertones/8_Estirado al sol.flv" Foto="video/pinkertones/fotos/foto8.jpg" />
+			<VIDEO Video="video/pinkertones/9_Invaders.flv" Foto="video/pinkertones/fotos/foto9.jpg" />
+			<VIDEO Video="video/pinkertones/10_Happy everywhere.flv" Foto="video/pinkertones/fotos/foto10.jpg" />
+			<VIDEO Video="video/pinkertones/11_Sonido total.flv" Foto="video/pinkertones/fotos/foto11.jpg" />
+		</VIDEOS>
+		<FOTOS>
+			<FOTO Foto="fotos/pinkertones/_MG_6056.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6056.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6057.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6057.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6069.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6069.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6076.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6076.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6080.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6080.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6091.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6091.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6093.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6093.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6100.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6100.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6106.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6106.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6108.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6108.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6111.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6111.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6116.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6116.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6120.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6120.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6125.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6125.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6127.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6127.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6128.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6128.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6130.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6130.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6131.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6131.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6132.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6132.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6135.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6135.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6137.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6137.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6142.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6142.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6144.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6144.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6146.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6146.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6147.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6147.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6150.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6150.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6154.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6154.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6158.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6158.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6159.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6159.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6162.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6162.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6166.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6166.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6169.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6169.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6173.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6173.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6174.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6174.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6176.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6176.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6182.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6182.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6185.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6185.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6186.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6186.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6187.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6187.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6188.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6188.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6190.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6190.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6195.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6195.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6200.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6200.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6201.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6201.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6203.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6203.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6205.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6205.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6207.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6207.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6208.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6208.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6209.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6209.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6211.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6211.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6213.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6213.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6215.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6215.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6220.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6220.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6224.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6224.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6225.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6225.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6229.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6229.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6233.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6233.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6234.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6234.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6235.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6235.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6236.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6236.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6237.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6237.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6238.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6238.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6240.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6240.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6241.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6241.jpg"/>
+			<FOTO Foto="fotos/pinkertones/_MG_6242.jpg" Thumb="fotos/pinkertones/thumbs/_MG_6242.jpg"/>
+		</FOTOS>
+	</CONCIERTO>
+	<CONCIERTO Var="DELOREAN">
+		<VIDEOS>
+			<VIDEO Video="video/delorean/01_seasun.flv" Foto="video/delorean/fotos/01_seasun.jpg" />
+			<VIDEO Video="video/delorean/02_stay_close.flv" Foto="video/delorean/fotos/02_stay_close.jpg" />
+			<VIDEO Video="video/delorean/03_moonson.flv" Foto="video/delorean/fotos/03_moonson.jpg" />
+			<VIDEO Video="video/delorean/04_big_dipper.flv" Foto="video/delorean/fotos/04_big_dipper.jpg" />
+			<VIDEO Video="video/delorean/05_no_name.flv" Foto="video/delorean/fotos/05_no_name.jpg" />
+			<VIDEO Video="video/delorean/06_deli.flv" Foto="video/delorean/fotos/06_deli.jpg" />
+			<VIDEO Video="video/delorean/07_as_time.flv" Foto="video/delorean/fotos/07_as_time.jpg" />
+			<VIDEO Video="video/delorean/08_grow.flv" Foto="video/delorean/fotos/08_grow.jpg" />
+		</VIDEOS>
+		<FOTOS>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_042.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_042.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_050.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_050.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_052.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_052.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_054.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_054.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_055.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_055.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_056.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_056.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_057.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_057.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_058.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_058.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_062.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_062.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_069.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_069.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_071.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_071.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_072.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_072.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_075.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_075.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_076.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_076.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_079.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_079.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_086.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_086.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_087.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_087.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_088.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_088.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_091.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_091.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_092.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_092.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_107.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_107.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_108.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_108.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_113.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_113.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_114.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_114.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_115.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_115.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_116.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_116.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_118.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_118.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_119.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_119.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_120.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_120.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_121.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_121.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_124.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_124.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_125.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_125.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_128.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_128.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_131.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_131.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_132.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_132.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_136.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_136.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_137.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_137.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_138.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_138.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_139.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_139.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_140.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_140.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_142.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_142.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_143.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_143.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_144.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_144.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_145.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_145.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_146.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_146.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_148.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_148.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_149.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_149.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_150.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_150.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_152.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_152.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_156.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_156.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_157.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_157.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_158.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_158.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_159.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_159.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_161.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_161.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_164.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_164.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_166.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_166.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_167.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_167.jpg"/>
+			<FOTO Foto="fotos/delorean/ERISTOF DELOREAN_170.jpg" Thumb="fotos/delorean/thumbs/ERISTOF DELOREAN_170.jpg"/>	
+		</FOTOS>
+	</CONCIERTO>
+	<CONCIERTO Var="LOVE OF LESBIAN">
+		<VIDEOS>
+			<VIDEO Video="video/lol/01 All donde.flv" Foto="video/lol/fotos/foto0.jpg" />
+			<VIDEO Video="video/lol/02 Mi Personulidad.flv" Foto="video/lol/fotos/foto1.jpg" />
+			<VIDEO Video="video/lol/03 Noches reversibles.flv" Foto="video/lol/fotos/foto2.jpg" />
+			<VIDEO Video="video/lol/04 Las malas lenguas.flv" Foto="video/lol/fotos/foto3.jpg" />
+			<VIDEO Video="video/lol/05 La nia imantada.flv" Foto="video/lol/fotos/foto4.jpg" />
+			<VIDEO Video="video/lol/06 Incendios de nieve.flv" Foto="video/lol/fotos/foto5.jpg" />
+			<VIDEO Video="video/lol/07 Segundo asalto.flv" Foto="video/lol/fotos/foto6.jpg" />
+			<VIDEO Video="video/lol/08 1999.flv" Foto="video/lol/fotos/foto7.jpg" />
+			<VIDEO Video="video/lol/09 Club de fans de John Boy.flv" Foto="video/lol/fotos/foto8.jpg" />
+			<VIDEO Video="video/lol/10 Me amo.flv" Foto="video/lol/fotos/foto9.jpg" />
+			<VIDEO Video="video/lol/11 Los nios del maana.flv" Foto="video/lol/fotos/foto10.jpg" />
+			<VIDEO Video="video/lol/video11.flv" Foto="video/lol/fotos/foto11.jpg" />
+			<VIDEO Video="video/lol/13 Miau.flv" Foto="video/lol/fotos/foto12.jpg" />
+			<VIDEO Video="video/lol/14 Houston tenemos un poema.flv" Foto="video/lol/fotos/foto13.jpg" />
+			<VIDEO Video="video/lol/chatroom.flv" Foto="video/lol/fotos/chat.jpg" />
+		</VIDEOS>
+		<FOTOS>
+			<FOTO Foto="fotos/lol/IMG_0479 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0479 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0483 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0483 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0486 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0486 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0526 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0526 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0531 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0531 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0545 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0545 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0546 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0546 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0552 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0552 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0557 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0557 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0562 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0562 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0571 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0571 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0573 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0573 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0581 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0581 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0602 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0602 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0616 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0616 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0625 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0625 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0647 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0647 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0664 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0664 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0681 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0681 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0724 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0724 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0727 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0727 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0742 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0742 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0750 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0750 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0753 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0753 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0754 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0754 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0756 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0756 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0758 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0758 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0763 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0763 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0774 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0774 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0779 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0779 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0786 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0786 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0791 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0791 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0800 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0800 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0819 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0819 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0825 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0825 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0834 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0834 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0839 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0839 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0844 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0844 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0849 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0849 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0870 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0870 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0894 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0894 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0900 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0900 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0907 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0907 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0916 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0916 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0919 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0919 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0938 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0938 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0944 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0944 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0946 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0946 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0949 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0949 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0953 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0953 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0955 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0955 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0961 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0961 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0963 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0963 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0967 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0967 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0981 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0981 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0981 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0981 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_0983 copia.jpg" Thumb="fotos/lol/thumbs/IMG_0983 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1002 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1002 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1008 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1008 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1017 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1017 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1029 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1029 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1036 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1036 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1063 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1063 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1076 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1076 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1113 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1113 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1122 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1122 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1138 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1138 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1153 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1153 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1161 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1161 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1170 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1170 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1172 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1172 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1188 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1188 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1198 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1198 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1199 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1199 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1207 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1207 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1216 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1216 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1218 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1218 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1221 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1221 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1234 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1234 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1236 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1236 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1238 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1238 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1241 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1241 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1242 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1242 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1249 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1249 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1260 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1260 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1271 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1271 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1278 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1278 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1292 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1292 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1298 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1298 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1303 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1303 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1307 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1307 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1314 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1314 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1318 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1318 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1332 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1332 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1339 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1339 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1342 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1342 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1359 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1359 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1374 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1374 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1376 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1376 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1381 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1381 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1398 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1398 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1409 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1409 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1420 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1420 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1422 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1422 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1431 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1431 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1441 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1441 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1461 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1461 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1468 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1468 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1470 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1470 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1479 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1479 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1483 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1483 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1499 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1499 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1504 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1504 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1509 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1509 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1526 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1526 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1539 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1539 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1560 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1560 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1572 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1572 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1585 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1585 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1593 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1593 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1624 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1624 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1644 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1644 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1651 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1651 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1669 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1669 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1688 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1688 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1702 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1702 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1707 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1707 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1716 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1716 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1720 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1720 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1734 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1734 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1738 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1738 copia.jpg"/>
+			<FOTO Foto="fotos/lol/IMG_1743 copia.jpg" Thumb="fotos/lol/thumbs/IMG_1743 copia.jpg"/>
+		</FOTOS>
+	</CONCIERTO>
+</FESTIVAL>

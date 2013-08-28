@@ -1,0 +1,1 @@
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="uploadfoto.aspx.vb" Inherits="services_uploadfoto" %>

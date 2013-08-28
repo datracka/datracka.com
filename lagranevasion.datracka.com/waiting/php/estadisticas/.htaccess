@@ -1,0 +1,9 @@
+
+AuthType Basic
+
+AuthName "Estadisticas"
+
+AuthUserFile /usr/hostings/m/www.miprimerdanone.com/webapps/ROOT/regalo/php/estadisticas/.htpasswd
+
+
+require valid-user

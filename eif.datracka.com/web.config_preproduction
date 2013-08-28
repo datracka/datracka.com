@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!-- 
+    Nota: como alternativa para editar manualmente este archivo puede utilizar la 
+    herramienta Administración de sitios Web para configurar los valores de la aplicación. Utilice
+    la opción Sitio Web->Configuración de Asp.Net en Visual Studio.
+    Encontrará una lista completa de valores de configuración y comentarios en 
+    machine.config.comments, que se encuentra generalmente en 
+    \Windows\Microsoft.Net\Framework\v2.x\Config 
+-->
+<configuration>
+  <appSettings>
+    <add key="siteID" value="200"/>
+    <add key="siteKey" value="ae23adfb-3eb0-4e8b-bcbd-fe56bea74ec1"/>
+    <add key="campaingID" value="213"/>
+    <add key="campaingIDNews" value="73"/>
+    <add key="campaingIDConcurso" value="81"/>
+    <!-- indica el concierto en el que nos encotramos para cada campaña nueva de usuario 67, 213 etc...
+    un concierto nuevo! con esto nos aseguramos que solo devolvemos usuarios para la campaña dada
+    Campaña actual 213 -->
+    <add key="conciertoID" value="4"/>
+    <add key="urlDms" value="https://webservices.bacardi.com/crm/crmwebservice.asmx"/>
+    <add key="urlGdf" value="https://webservices.bacardi.com/gdfgateway/gdf.asmx"/>
+    <add key="smtp" value="10.10.20.36"/>
+    <add key="dominio" value="http://eristoff.bluemodus.com/"/>
+    <add key="dominio2" value="http://eristoff.bluemodus.com/test/"/>
+    <add key="urlClick" value="http://eristoff.bluemodus.com/services/mailBanner.html"/>
+ 
+  </appSettings>
+  <connectionStrings>
+
+    <add name="conexion" connectionString="Data Source=10.10.20.52;Initial Catalog=bacardilimon_es;Persist Security Info=True;User ID=bacardilimon_es_usr;Password=tfVzx@as3!" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+	<system.web>
+		<!-- 
+            Establezca debug="true" en la compilación para insertar símbolos 
+            de depuración en la página compilada. Dado que este proceso 
+            afecta al rendimiento, debe establecer este valor como true 
+            durante la depuración.
+
+            Opciones de Visual Basic:
+            Establezca strict="true" para no permitir las conversiones de todos los tipos de datos 
+            donde se pueda producir una pérdida de datos. 
+            Establezca explicit="true" para forzar la declaración de todas las variables.
+        -->
+		<compilation debug="true" strict="false" explicit="true"/>
+		<pages>
+			<namespaces>
+				<clear/>
+				<add namespace="System"/>
+				<add namespace="System.Collections"/>
+				<add namespace="System.Collections.Specialized"/>
+				<add namespace="System.Configuration"/>
+				<add namespace="System.Text"/>
+				<add namespace="System.Text.RegularExpressions"/>
+				<add namespace="System.Web"/>
+				<add namespace="System.Web.Caching"/>
+				<add namespace="System.Web.SessionState"/>
+				<add namespace="System.Web.Security"/>
+				<add namespace="System.Web.Profile"/>
+				<add namespace="System.Web.UI"/>
+				<add namespace="System.Web.UI.WebControls"/>
+				<add namespace="System.Web.UI.WebControls.WebParts"/>
+				<add namespace="System.Web.UI.HtmlControls"/>
+			</namespaces>
+		</pages>
+		<!--
+            La sección <authentication> permite configurar 
+            el modo de autenticación de seguridad utilizado por 
+            ASP.NET para identificar a un usuario entrante. 
+        -->
+		<authentication mode="Windows"/>
+		<!--
+            La sección <customErrors> permite configurar 
+            las acciones que se deben llevar a cabo/cuando un error no controlado tiene lugar
+            durante la ejecución de una solicitud. Específicamente, 
+            permite a los desarrolladores configurar páginas de error html 
+            que se mostrarán en lugar de un seguimiento de pila de errores.
+
+        <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm">
+            <error statusCode="403" redirect="NoAccess.htm" />
+            <error statusCode="404" redirect="FileNotFound.htm" />
+        </customErrors>
+        -->
+    <customErrors mode="Off" />
+   
+	</system.web>
+</configuration>

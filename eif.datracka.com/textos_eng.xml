@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEXTOS>
+	<texto Var="PREHOME_0"><![CDATA[This site is reserved for people over the age of 18 or people who are lawfully permitted to consume alcoholic beverages under the legislation of the country they are connecting from. Please do not try to enter this site if you do not meet these minimum requirements.
+DRINK RESPONSIBLY<br/>Eristoff is a registered trademark. Please enjoy it responsibly. 37.5º]]></texto>
+	<texto Var="PREHOME_1">Terms and conditions |  Privacy policy  |  Responsibility</texto>
+	<texto Var="PREHOME_2">day/month/year of birth</texto>
+	<texto Var="PREHOME_3">enter</texto>
+	<texto Var="PREHOME_4">choose your country:</texto>
+	<texto Var="PREHOME_5">El Vodka de la tierra de los lobos presenta</texto>
+	<texto Var="PREHOME_6">THE FIRST ONLINE MUSIC FESTIVAL</texto>
+	<texto Var="PREHOME_7">Todavía eres un lobezno. Nos vemos en tu 18 cumpleaños</texto>
+	<texto Var="PREHOME_8">We need to know if you’re more than 18 moons old</texto>
+	<texto Var="PREHOME_9">choose lenguage</texto>
+
+	
+	<texto Var="FOOT_0"> 2009 Bacardi Global Brands Ltd | Terms and conditions | Privacy policy | Responsibility | Give us a howl</texto>
+	
+	<texto Var="MENU_0">HOME</texto>
+	<texto Var="MENU_1">THE FESTIVAL</texto>
+	<texto Var="MENU_2">BLOGGERS</texto>
+	<texto Var="MENU_3">VIEWERS</texto>
+	<texto Var="MENU_4">MOON ARCHIVE</texto>
+	
+	<texto Var="LOGIN_0">SIGN IN</texto>
+	<texto Var="LOGIN_1">E-MAIL_</texto>
+	<texto Var="LOGIN_2">PASSWORD_</texto>
+	<texto Var="LOGIN_3">Did you forget your password?</texto>
+	<texto Var="LOGIN_4">Hello</texto>
+	
+	<texto Var="NEWSLETTER_0">Your email</texto>
+	<texto Var="NEWSLETTER_1">I have read and accept the terms and conditions.</texto>
+	<texto Var="NEWSLETTER_2">Muchas gracias por solicitar este servicio</texto>
+	<texto Var="NEWSLETTER_3">Your name</texto>
+	
+	<texto Var="HOME_0">ERISTOFF</texto>
+	<texto Var="HOME_1">DELOREAN</texto>
+	<texto Var="HOME_2">COMING SOON…</texto>
+	<texto Var="HOME_3">NEWS</texto>
+	<texto Var="HOME_4">The brand of the wolf, supporting music</texto>
+	<texto Var="HOME_5">Find the whole Delorean recital in our Moon Archive</texto>
+	<texto Var="HOME_6">Stay alert in the next full moons</texto>
+	<texto Var="HOME_7">WELCOME TO THE FIRST ONLINE FESTIVAL</texto>
+	<texto Var="HOME_8">ERISTOFF</texto>
+	<texto Var="HOME_9">DELOREAN</texto>
+	<texto Var="HOME_10">UPCOMING CONCERTS</texto>
+
+  <texto Var="CONTADOR_1">QUEDAN</texto>
+	<texto Var="CONTADOR_2">DÍAS</texto>
+	<texto Var="CONTADOR_3">PARA EL PRIMER FESTIVAL</texto>
+  <texto Var="CONTADOR_4">ONLINE</texto>
+  <texto Var="CONTADOR_5">HORAS</texto>
+	<texto Var="CONTADOR_6">MINUTOS</texto>
+	<texto Var="CONTADOR_7">SEGUNDOS</texto>
+  <texto Var="CONTADOR_8">PARA EL PRIMER FESTIVAL ONLINE</texto>
+  <texto Var="CONTADOR_9">en breve podrás ver</texto>
+	<texto Var="CONTADOR_10">todos los vídeos</texto>
+	<texto Var="CONTADOR_11">del concierto de</texto>
+  <texto Var="CONTADOR_12">DELOREAN</texto>
+  <texto Var="CONTADOR_13">AL CONCIERTO</texto>
+
+	<texto Var="FESTIVAL_0">WHAT IS IT?</texto>
+	<texto Var="FESTIVAL_1"><![CDATA[The <span class="negrita_negra">Eristoff Internative Festival</span> is the very first online music festival created and distributed exclusively over the Internet. It consists of a series of live, interactive concerts on the nights of the full moon, where users cease to be mere spectators and become an integral part of the event, creating it and modifying it as they go. <br/><br/><span class="negrita_negra">Does this mean that the concerts aren’t open to the public?</span><br/><br/>Exactly. You, at your computers, are the audience and stars of the show. Every concert is held in a secret lair, but if you’re a clever wolf, a true leader of the pack, there is always the chance that you might find your way to one of them.]]></texto>
+	<texto Var="FESTIVAL_2">WHERE IS IT HELD?</texto>
+	<texto Var="FESTIVAL_3"><![CDATA[<span class="negrita_negra">Wolf friend</span>, this is an <span class="negrita_negra">online festival</span> You can log on to the concerts from any Internet connection, interact with the group in its lair, help design the concert audiovisuals and howl to the rhythm of the best bands.]]></texto>
+	
+	<texto Var="FESTIVAL_GRUPO_PEQ_0"></texto>
+	<texto Var="FESTIVAL_GRUPO_PEQ_1">DELOREAN</texto>
+	<texto Var="FESTIVAL_GRUPO_PEQ_2">04.10.09</texto>
+	<texto Var="FESTIVAL_GRUPO_PEQ_3">LESBIAN</texto>
+	
+	<texto Var="FESTIVAL_GRUPO_PEQ_4">AN UNCONVENTIONAL FESTIVAL CAN'T REVEAL</texto>
+	<texto Var="FESTIVAL_GRUPO_PEQ_5">ALL IT'S SECRETS.</texto>
+
+
+	<texto Var="FESTIVAL_GRUPO_PEQ_6"><![CDATA[An unconventional festival can’t reveal all its secrets. Little by little, we’ll let you know more and more about the Eristoff Internative Festival.]]></texto>
+
+	<texto Var="FESTIVAL_GRUPO_PEQ_7"><![CDATA[<span class="negrita_negra"></span>]]></texto>
+
+	
+	<texto Var="FESTIVAL_11">HOW DO YOU ATTEND?</texto>
+
+	<texto Var="FESTIVAL_12"><![CDATA[At this festival, there are no tickets, no reservations, no traveling, no payments. All you have to do is log on to this website to enjoy a totally free online experience from your own computer. No matter where you are. No matter who you’re with. It’s that easy. If you are blogger you have the opportunity, to watch in first person the whole framework of this festival. Enter in Bloggers. If you are a viewer, you can decide a lot about the concert before it is held. Enter in Viewers.]]></texto>
+
+	
+	<texto Var="FESTIVAL_13">WHEN?</texto>
+
+	<texto Var="FESTIVAL_14"><![CDATA[Every time there is a <span class="negrita_negra">FULL MOON</span>, at <span class="negrita_negra">10:00 p.m.</span> this website will become a large window to a live concert, and the howls will keep going until midnight.<br /><br />If you are just a curious wolf, that might be enough for you. However, if you really want to get into the thick of it all, you’ll have to work a little harder to catch your prey.]]></texto>
+
+	<texto Var="FESTIVAL_15"><![CDATA[]]></texto>
+	<texto Var="FESTIVAL_16"><![CDATA[]]></texto>
+	
+	<texto Var="FESTIVAL_GRUPO_GRANDE_0">NEXT CONCERT</texto>
+	<texto Var="FESTIVAL_GRUPO_GRANDE_1">DELOREAN</texto>
+	<texto Var="FESTIVAL_GRUPO_GRANDE_2">04.10.09</texto>
+	
+
+	<texto Var="FESTIVAL_GRUPO_GRANDE_3"><![CDATA[Rarely has EP caused such a stir. It was just months ago that Delorean published the excellent Ayrton Senna album (Mushroom Pillow), recording four new electro-pop songs, but they are already getting acclaim from the public, national and international newspapers (including the prestigious Pitchfork).]]></texto>
+	<texto Var="FESTIVAL_GRUPO_GRANDE_4"><![CDATA[With irresistible recordings backing them and projection that seems endless, the Basque quartet based in Barcelona will, in October, launch its long awaited LP which they promise will keep people dancing until they drop. There will be concerts full of intensity and energy from the explosive combination of pop, electronica and funk. Their only goal being to make you live through a unique experience. There´s on thing we can be sure of: that this autumn will be Delorean´s autumn. It should definitely catapult them to the top of dance music. You´ll be able to check it out live on Sunday the 4th of October at 10pm at the Eristoff Festival.]]></texto>
+	
+	<texto Var="BLOGGER_ASISTIR_0">WANNA BE THERE LIVE?</texto>
+	<texto Var="BLOGGER_ASISTIR_1"><![CDATA[The <span class="negrita_blanca">[caja]Eristoff Internative Festival[/caja]</span> is an online festival. But the leaders of the wolves have a unique opportunity to see what happens behind an online concert with a select pack. Once there we'll show you how to create this experience, how technically is recorded and disseminated. Besides being able to see the band in concert, of course. The travel and accommodation costs are on our own.<br/>Besides, if you are one of the elects, you will receive the exclusive secret codes that allow attendees to interact online with the group and the stage. And of course, before anyone else will receive all material on the concert you have attended.]]></texto>
+	<texto Var="BLOGGER_ASISTIR_2"><![CDATA[]]></texto>
+	
+	<texto Var="BLOGGER_MATERIALES">MATERIALS</texto>
+	<texto Var="BLOGGER_MATERIALES_1"><![CDATA[DOWNLOAD all the materials you need to power your race to become leader of the pack. And if you need anything else, don’t hesitate to get in touch with us.]]></texto>
+	
+	<texto Var="BLOGGER_RANKING">RANKING</texto>
+	
+
+	<texto Var="BLOGGER_PARTICIPA_PETIT_0"><![CDATA[ARE YOU THE ERISTOFF PACK LEADER? THEN <font size="20" color="#FFFFFF"> [caja]PARTICIPATE >[/caja] </font>]]></texto>
+		
+	<texto Var="BLOGGER_PARTICIPA_GRAN_0">PARTICIPATE</texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_1"><![CDATA[<b>TO EARN YOUR SPOT AS PACK LEADER, YOU'VE GOT TO HOWL LOUDER THEN EVERYONE ELSE.</b>]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_2"><![CDATA[<font color='#FFFFFF'>1.</font><font color='#005596'> <b>Sign up as a blogger.</b> We’ll give you a banner to put on your blog.</font>]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_3"><![CDATA[<font color='#FFFFFF'>2.</font><font color='#005596'> To vote for you, all your readers and fans have to do is click on the banner. One reader from every blog will get to attend the concert.</font>]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_4"><![CDATA[<font color='#FFFFFF'>3.</font><font color='#005596'> The five bloggers with the most votes will get to attend the concert. It’s that easy.</font>]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_5">DO YOU WANT TO PARTICIPATE AS A PACK?</texto>
+	<texto Var="BLOGGER_PARTICIPA_GRAN_6">HOW DO YOU TURN YOUR READERS INTO VOTERS?</texto>
+	
+	<texto Var="BLOGGER_PARTICIPA_GRAN_7"><![CDATA[If you have blogger friends, you can compete together as a pack and all come together if you win.<br/>All you have to do is sign up as a pack and send invites to your blogger friends (up to five blogs per pack).<br/>We’ll send you a blog that will count all of your votes together. The pack with the most votes will win tickets to the concert.]]></texto>
+	
+	<texto Var="BLOGGER_PARTICIPA_GRAN_8"><![CDATA[The methods you choose are part of your strategy as a leader. But to get you going, if you turn out to be a winning blogger, we’ll pick a random name from all of the readers who voted for you and left their e-mail address on the banner. <br/>The winning reader can go with you to the concert. <br/>Just a small incentive to help boost the loyalty of your pack.]]></texto>
+	
+	<texto Var="BLOGGER_PARTICIPA_REGISTRAT_0"><![CDATA[HELLO]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_REGISTRAT_1"><![CDATA[<span class="negrita_negra">Lift your ears, the full moon is now approaching.</span><br/>You can still poke your nose into the next internative concert.]]></texto>
+	
+	<texto Var="BLOGGER_PARTICIPA_MODIFICA"><![CDATA[CHANGE YOUR DATA >]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_MANADA_1"><![CDATA[ADD TO YOUR PACK >]]></texto>
+	<texto Var="BLOGGER_PARTICIPA_MANADA_2"><![CDATA[CREA UNA MANADA >]]></texto>
+	
+	<texto Var="REGISTRO_0"><![CDATA[SIGN UP]]></texto>
+	<texto Var="REGISTRO_1"><![CDATA[FILL OUT THE FOLLOWING FORM, AND YOU'LL GET THE BANNER YOU NEED TO PARTICIPATE.]]></texto>
+	<texto Var="REGISTRO_2"><![CDATA[<span class="negrita_negra">HOW DO YOU WANT TO PARTICIPATE?</span>]]></texto>
+	<texto Var="REGISTRO_3"><![CDATA[<span class="negrita_negra">LONE WOLF</span>]]></texto>
+	<texto Var="REGISTRO_4"><![CDATA[<span class="negrita_negra">PACK</span>]]></texto>
+	<texto Var="REGISTRO_5"><![CDATA[<span class="negrita_negra">NAME OF YOUR BLOG:</span>]]></texto>
+	<texto Var="REGISTRO_6"><![CDATA[<span class="negrita_negra">URL OF YOUR BLOG:</span>]]></texto>
+	<texto Var="REGISTRO_7"><![CDATA[<span class="negrita_negra">YOUR NAME:</span>]]></texto>
+	<texto Var="REGISTRO_8"><![CDATA[<span class="negrita_negra">LAST NAME(S):</span>]]></texto>
+	<texto Var="REGISTRO_9"><![CDATA[<span class="negrita_negra">DATE OF BIRTH:</span>]]></texto>
+	<texto Var="REGISTRO_10"><![CDATA[<span class="negrita_negra">E-MAIL:</span>]]></texto>
+	<texto Var="REGISTRO_11"><![CDATA[<span class="negrita_negra">PASSWORD:</span>]]></texto>
+	<texto Var="REGISTRO_12"><![CDATA[<span class="negrita_negra">REPEAT PASSWORD:</span>]]></texto>
+	<texto Var="REGISTRO_13"><![CDATA[<span class="negrita_negra">CITY OF RESIDENCE:</span>]]></texto>
+	<texto Var="REGISTRO_14"><![CDATA[<span class="negrita_negra">I ACCEPT THE TERMS AND CONDITIONS</span>]]></texto>
+	<texto Var="REGISTRO_15"><![CDATA[<span class="negrita_negra">SEND</span>]]></texto>
+	
+	<texto Var="REGISTRO_16"><![CDATA[<span class="negrita_negra">SEND INVITATIONS TO THE WOLVES YOU WANT IN YOUR PACK. JUST HAVE TO FILL IN THEIR E-MAIL ADDRESSES.</br>PACKS CAN HAVE UP TO FIVE BLOGGERS</span>]]></texto>
+	<texto Var="REGISTRO_17"><![CDATA[<span class="negrita_negra">EMAIL 1</span>]]></texto>
+	<texto Var="REGISTRO_18"><![CDATA[<span class="negrita_negra">EMAIL 2</span>]]></texto>
+	<texto Var="REGISTRO_19"><![CDATA[<span class="negrita_negra">EMAIL 3</span>]]></texto>
+	<texto Var="REGISTRO_20"><![CDATA[<span class="negrita_negra">EMAIL 4</span>]]></texto>
+	<texto Var="REGISTRO_21"><![CDATA[<span class="negrita_negra">EMAIL 5</span>]]></texto>
+	<texto Var="REGISTRO_22"><![CDATA[<span class="negrita_negra">NAME OF THE PACK</span>]]></texto>
+	<texto Var="REGISTRO_23"><![CDATA[<span class="negrita_negra">I ACCEPT THE TERMS AND CONDITIONS</span>]]></texto>
+	<texto Var="REGISTRO_24"><![CDATA[MODIFICA TUS DATOS Y ENVIANOSLOS DE NUEVO]]></texto>
+	
+	
+	<texto Var="RANKING_0"><![CDATA[RANKING]]></texto>
+	<texto Var="RANKING_1"><![CDATA[PACK]]></texto>
+	<texto Var="RANKING_2"><![CDATA[LONE WOLF]]></texto>
+	<texto Var="RANKING_3"><![CDATA[<span class="negrita_negra">These are the packs that the most wolves have voted for so far.<br/>Do you dare challenge them?</span>]]></texto>
+	
+	<texto Var="MATERIALES_0"><![CDATA[MATERIALS]]></texto>
+	<texto Var="MATERIALES_1"><![CDATA[<span class="negrita_blanca">MATERIAL FOR YOUR BLOG</span><br/><br/>DOWNLOAD all the materials you need to power your race to become leader of the pack. And if you need anything else, don’t hesitate to get in touch with us.]]></texto>
+	<texto Var="MATERIALES_2"><![CDATA[<span class="negrita_blanca">PARTICIPATION WIDGET FOR REGISTERED BLOGGERS</span class="negrita_blanca"><br/><br/>Remember, the more visible your widget, the more chance you have to be voted.<br/><br/>If you use a blog manager, copy the code and paste it into your sidebar, at the gadget that allows you to enter html code. If you have questions, <a href="mailto:info@eristoffinternativefestival.com">contact us</a>.]]></texto>
+	<texto Var="MATERIALES_3"><![CDATA[RICH MEDIA WIDGET (300X400)]]></texto>
+	<texto Var="MATERIALES_4"><![CDATA[BANNER]]></texto>
+	<texto Var="MATERIALES_5"><![CDATA[VIDEO]]></texto>
+	<texto Var="MATERIALES_6"><![CDATA[OTHER MATERIALS]]></texto>
+	<texto Var="MATERIALES_7"><![CDATA[NORMAL WIDGET (150X400)]]></texto>
+	<texto Var="MATERIALES_8"><![CDATA[PREVIEW]]></texto>
+	<texto Var="MATERIALES_9"><![CDATA[OTHER MATERIALS]]></texto>
+	<texto Var="MATERIALES_10"><![CDATA[PLEASE REGISTER TO DOWNLOAD THIS MATERIAL.]]></texto>
+	
+	<texto Var="RECORDAR_0"><![CDATA[REMEMBER PASSWORD]]></texto>
+	<texto Var="RECORDAR_1"><![CDATA[<span class="negrita_blanca">LEAVE US THE EMAIL ADRESS THAT YOU REGISTERED WITH AND WE WILL SEND YOU A NEW PASSWORD</span>]]></texto>
+	<texto Var="RECORDAR_2"><![CDATA[<span class="negrita_negra">E-MAIL:</span>]]></texto>
+	<texto Var="RECORDAR_3"><![CDATA[<span class="negrita_negra">I ACCEPT THE TERMS AND CONDITIONS</span>]]></texto>
+	<texto Var="RECORDAR_4"><![CDATA[<span class="negrita_negra">SEND</span>]]></texto>
+	<texto Var="RECORDAR_5">We've sent you an email with the new password. Thanks!</texto>
+	
+	<texto Var="VISUALIZADOR_0"><![CDATA[WANNA TAKE PART?]]></texto>
+	<texto Var="VISUALIZADOR_1"><![CDATA[WOLF, YOU CAN BE PART OF THIS CONCERT.<br/>All you need are the SECRET CODES held by our winning bloggers. Visit the winning blogger of your choice and interact with the band]]></texto>
+	<texto Var="VISUALIZADOR_2"><![CDATA[<span class="negrita_negra">CODE</span>]]></texto>
+	<texto Var="VISUALIZADOR_3"><![CDATA[HOWL]]></texto>
+	<texto Var="VISUALIZADOR_4"><![CDATA[From here, your message will make it far.]]></texto>
+	<texto Var="VISUALIZADOR_5"><![CDATA[From here, your message will make it far.]]></texto>
+	<texto Var="VISUALIZADOR_6"><![CDATA[STICK YOUR SNOUT IN]]></texto>
+	<texto Var="VISUALIZADOR_7"><![CDATA[Upload a photo of yourself and you’ll be on stage.]]></texto>
+	<texto Var="VISUALIZADOR_8"><![CDATA[WEBCAM]]></texto>
+	<texto Var="VISUALIZADOR_9"><![CDATA[CONNECT]]></texto>
+	<texto Var="VISUALIZADOR_10"><![CDATA[the moon is yours]]></texto>
+	<texto Var="VISUALIZADOR_11"><![CDATA[Sign in with your name and make the moon your partner]]></texto>
+	<texto Var="VISUALIZADOR_12"><![CDATA[There are]]></texto>
+	<texto Var="VISUALIZADOR_13"><![CDATA[people ahead of you]]></texto>
+	<texto Var="VISUALIZADOR_14"><![CDATA[Perspective]]></texto>
+	<texto Var="VISUALIZADOR_15"><![CDATA[Style]]></texto>
+	<texto Var="VISUALIZADOR_16">eristoff</texto>
+	<texto Var="VISUALIZADOR_17"><![CDATA[WRONG CODE]]></texto>
+	<texto Var="VISUALIZADOR_18"><![CDATA[close vídeo  x]]></texto>
+	<texto Var="VISUALIZADOR_19"><![CDATA[TEXT SENT]]></texto>
+	<texto Var="VISUALIZADOR_20"><![CDATA[SEND ERROR]]></texto>
+	<texto Var="VISUALIZADOR_21"><![CDATA[SENDING PICTURE...]]></texto>
+    <texto Var="VISUALIZADOR_22"><![CDATA[SENT PICTURE]]></texto>
+	<texto Var="VISUALIZADOR_23"><![CDATA[SENDING TEXT...]]></texto>
+	<texto Var="VISUALIZADOR_24"><![CDATA[refreshing video  x]]></texto>	
+	<texto Var="VISUALIZADOR_25"><![CDATA[SENDING QUESTION...]]></texto>	
+	<texto Var="VISUALIZADOR_26"><![CDATA[QUESTION SENT]]></texto>
+	<texto Var="VISUALIZADOR_27"><![CDATA[CHAT ROOM DELOREAN]]></texto>		
+	<texto Var="VISUALIZADOR_28"><![CDATA[Send your question when the concert is finished.]]></texto>		
+	<texto Var="VISUALIZADOR_29"><![CDATA[Click here to have access to the winner blogs]]></texto>
+	<texto Var="VISUALIZADOR_30"><![CDATA[WATCH THE SCREEN WOLF!]]></texto>
+	<texto Var="VISUALIZADOR_31"><![CDATA[sorry. the queue is full]]></texto>
+	<texto Var="VISUALIZADOR_32"><![CDATA[You need flash player 10. Download it here]]></texto>
+	
+	<texto Var="ARCHIVO_0"><![CDATA[MOON ARCHIVE]]></texto>
+	<texto Var="ARCHIVO_1"><![CDATA[These are the full moon nights that took place at the Eristoff Internative Festival. The howls were heard all across the internet. Now they will live on forever.]]></texto>
+	<texto Var="ARCHIVO_2"><![CDATA[photos]]></texto>
+	<texto Var="ARCHIVO_3"><![CDATA[video]]></texto>
+	
+	<texto Var="ESPECTADORES_0"><![CDATA[BE THE STARRING GUEST OF THE ERISTOFF INTERNATIVE FESTIVAL]]></texto>
+	<texto Var="ESPECTADORES_1"><![CDATA[We have prepared big surprises for the 4th of Octobers full moon night, at 10pm. New interactivity, new scenery, new group. But not everything is decided. As wolf viewers you can decide, amongst yourselves, some of the concert´s aspects. To start with, the song you would like to conclude the concert.<br/><br/> You decide wolf!]]></texto>
+	<texto Var="ESPECTADORES_2"><![CDATA[HOW DO YOU PARTICIPATE AS A SPECTATOR BEFORE THE CONCERT?]]></texto>
+	<texto Var="ESPECTADORES_3"><![CDATA[Take part in the voting on how you want the concert run.]]></texto>
+	<texto Var="ESPECTADORES_4"><![CDATA[Log into participating blogs, vote for the one you like best and then enter the draw for live tickets.]]></texto>
+	<texto Var="ESPECTADORES_5"><![CDATA[Join our Newsletter.]]></texto>
+	<texto Var="ESPECTADORES_6"><![CDATA[Follow us on MySpace, Facebook or Twitter.]]></texto>
+	<texto Var="ESPECTADORES_7"><![CDATA[Follow us on MySpace, Facebook or Twitter.]]></texto>
+	<texto Var="ESPECTADORES_8"><![CDATA[NEXT CONCERT]]></texto>
+	<texto Var="ESPECTADORES_9"><![CDATA[DELOREAN]]></texto>
+	<texto Var="ESPECTADORES_10"><![CDATA[04.10.09]]></texto>
+	<texto Var="ESPECTADORES_11"><![CDATA[22 HRS.]]></texto>
+	<texto Var="ESPECTADORES_12"><![CDATA[ASK FOR A SONG]]></texto>
+	<texto Var="ESPECTADORES_13"><![CDATA[Delorean´s highest voted song will finish the next concert on the 4th of October.]]></texto>
+	<texto Var="ESPECTADORES_14"><![CDATA[As time breaks off]]></texto>
+	<texto Var="ESPECTADORES_15"><![CDATA[Deli]]></texto>
+	<texto Var="ESPECTADORES_16"><![CDATA[Unpublished song]]></texto>
+	<texto Var="ESPECTADORES_17"><![CDATA[THANKS FOR YOUR VOTE]]></texto>
+	
+	<texto Var="GANADOR_1">http://www.thinkingplanet.es</texto>
+  <texto Var="GANADOR_2">http://www.bukawi.org</texto>
+  <texto Var="GANADOR_3">http://deadsoulx.blogspot.com</texto>
+  <texto Var="GANADOR_4">http://lacasadelrock.wordpress.com</texto>
+  <texto Var="GANADOR_5">http://proyectochapa.blogspot.com</texto>
+  <texto Var="GANADOR_6">http://www.jandeporas.com</texto>
+  <texto Var="GANADOR_7">http://sepuede.tumblr.com/</texto>
+  <texto Var="GANADOR_8">http://ocirtic.tumblr.com/</texto>
+  <texto Var="GANADOR_9">http://stronfo.tumblr.com/</texto>
+	
+	
+	<texto Var="ERROR_0">MUST ACCEPT THE LEGAL CONDITIONS</texto>
+	<texto Var="ERROR_1">MUST ENTER A VALID E-MAIL</texto>
+	<texto Var="ERROR_2">MUST ENTER A DATE OF BIRTH</texto>
+	<texto Var="ERROR_3">MUST CONFIRM THE PASSWORD</texto>
+	<texto Var="ERROR_4">MUST ENTER A PACK NAME</texto>
+	<texto Var="ERROR_5">THE BLOGGER´S E-MAIL  MUST BE VALID</texto>
+	<texto Var="ERROR_6">SORRY BUT THIS PACK IS ALREADY COMPLETE</texto>
+	<texto Var="ERROR_7">You must register to get your participation banner. Register</texto>
+	<texto Var="ERROR_8">MUST ACCEPT THE LEGAL CONDITIONS FOR THE PACK</texto>
+	<texto Var="ERROR_9">SERVER ERROR CONECTION</texto>
+	<texto Var="ERROR_10">ONLY THE LEADER OF THE PACK CAN EXTEND IT</texto>
+	<texto Var="ERROR_11">MUST FILL EVERY FIELD</texto>
+	<texto Var="ERROR_12">COMING SOON</texto>
+	
+</TEXTOS>
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Lagranevasion</title>
+<style type="text/css">
+<!--
+body{
+	background-color:#FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style2 {
+	color:#605A48;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align:left;
+	font-weight:bold;
+}
+.style1 {
+	color:#605A48;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align:justify;
+}
+.style1Bold {
+	color:#605A48;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align:justify;
+	font-weight:bold;
+}
+.style1Bold a{
+	color:#B1BC22;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align:justify;
+	font-weight:bold;
+}
+.style3Bold{
+	color:#B1BC22;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align:justify;
+	font-weight:bold;
+}
+.style3Bold a{
+	color:#605A48;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align:justify;
+}
+.style4Bold{
+	color:#605A48;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	text-align:left;
+}
+.style4Bold a{
+	color:#B1BC22;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align:left;
+}
+-->
+</style>
+</head>
+<body>
+<table width="450" height="588" background="http://www.lagranevasion.es/php/email/email.jpg" style="background-repeat:no-repeat" border="0"  align="center">
+
+	<tr><td height="75"></td></tr>
+	<tr>
+	<td style="padding:20px;">
+		Te reto! __NOMBRE__ __PUNTUACION__
+</td>
+	</tr>
+	<tr><td style="padding:20px;">
+	<p class="style1">Atentamente,</p>
+	<p class="style1"><span class="style1Bold">Dpto.RRHH La Gran Evasión</span><br />
+	  <span class="style3Bold">BONGO</span><br /> 
+	  Balmes, 470 - 08022 Barcelona<br /> 
+tel: 902 945 177 
+fax: 934 172 260<br /> 
+e-mail: <span class="style3Bold"><a href="mailto:rrhh@lagranevasion.es" target="_blank">rrhh@lagranevasion.es</a> </span></p>
+	</td></tr>	
+	<tr><td height="120"></td></tr>
+</table>
+
+</body>
+</html>	  

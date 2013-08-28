@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =General Classes & Hacks
+-----------------------------------------------------------------------------*/
+body {
+	color: #535353;
+	font: 62.5%/1.6 Verdana, Helvetica, sans-serif; /* with this settings 1em = 10px approx. */
+	/*background: #f3f3f3;*/
+	background: #fff;
+	line-height: 1;
+
+}
+
+/* Class for clearing floats */
+.clear { overflow: hidden; width: 100%; clear: both; }
+
+/* hidding elements */
+.hide {	display: none; }
+
+/* Remove border around linked images */
+img { border: 0; }
+
+/* align elements */
+.alignLeft { text-align: left !important; }
+.alignCenter { text-align: center !important; }
+.alignRight { text-align: right !important; }
+.alignJustify { text-align: justify !important; }
+.alignTop { vertical-align: top !important; }
+.alignMiddle { vertical-align: middle !important; }
+.alignBottom { vertical-align: bottom !important; }
+
+.centered {	margin-left: auto; margin-right: auto; }
+
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.imgFloatRight { margin: 0 0 20px 20px; float: right; }
+.imgFloatLeft { margin: 0 20px 20px 0; float: left; }
+
+.noBorder { border: none !important; }
+.noMargin { margin: 0 !important; }
+.noPadding { padding: 0 !important; }
+
+
+.ml5px { margin-left:5px !important;}
+.ml10px { margin-left:10px !important;}
+.ml15px { margin-left:15px !important;}
+.ml20px { margin-left:20px !important; }
+
+.mr5px { margin-right: 5px !important;}
+.mr10px { margin-right: 10px !important;}
+.mr20px { margin-right: 20px !important;}
+
+.mt5px { margin-top: 5px !important; }
+.mt6px { margin-top: 6px !important; }
+.mt10px { margin-top: 10px !important;}
+.mt15px { margin-top: 15px !important;}
+.mt20px { margin-top: 20px !important;}
+.mt25px { margin-top: 25px !important;}
+
+
+.mb3px { margin-bottom: 3px !important;}
+.mb5px { margin-bottom: 5px !important;}
+.mb10px { margin-bottom: 10px !important;}
+.mb15px { margin-bottom: 15px !important;}
+.mb20px { margin-bottom: 20px !important;}
+
+.pl5px { padding-left:5px !important;}
+.pl10px { padding-left:10px !important;}
+.pl15px { padding-left:15px !important;}
+.pl20px { padding-left:20px !important;}
+.pl25px { padding-left:25px !important;}
+.pl30px { padding-left:30px !important;}
+
+ 
+.pt0px { padding-top:0px !important;}
+.pt5px { padding-top:5px !important;}
+.pt10px { padding-top:10px !important;}
+.pt15px { padding-top:15px !important;}
+.pt20px { padding-top:20px !important;}
+.pt25px { padding-top:25px !important;}
+.pt30px { padding-top:30px !important;}
+.pt35px { padding-top:35px !important;}
+.pt85px { padding-top:85px !important;}
+
+
+.pr10px { padding-right:10px !important; }
+.pr20px { padding-right:20px !important; }
+.pr30px { padding-right:30px !important; }
+.pr40px { padding-right:40px !important; }
+.pr80px { padding-right:80px !important; }
+.pr140px { padding-right:140px !important; }
+
+.pb0px { padding-bottom:0px !important;}
+.pb10px { padding-bottom:10px !important;}
+.pb15px { padding-bottom:15px !important;}
+
+
+.w5p { width: 5%; }
+.w10p { width: 10%; }
+.w17p {width: 17%;}
+.w20p { width: 20%; }
+.w30p { width: 30%; }
+.w40p { width: 40%; }
+.w50p { width: 50%; }
+.w55p { width: 55%; }
+.w60p { width: 60%; }
+.w70p { width: 70%; }
+.w80p { width: 80%; }
+.w90p { width: 90%; }
+.w100p { width: 100%; }
+
+.winherit { width: inherit ; }
+.wauto { width: auto; }
+
+.w10px { width: 10px; }
+.w20px { width: 20px; }
+.w25px { width: 25px; }
+.w30px { width: 30px; }
+.w35px { width: 35px; }
+.w37px { width: 37px; }
+.w40px { width: 40px; }
+.w45px { width: 45px !important; }
+.w50px { width: 50px; }
+.w70px { width: 70px; }
+.w73px { width: 73px; }
+.w75px { width: 75px; }
+.w80px { width: 80px !important; }
+.w85px { width: 85px; }
+.w90px { width: 90px; }
+.w95px { width: 95px; }
+.w100px { width: 100px; }
+.w115px { width: 115px; }
+.w120px { width: 120px; }
+.w130px { width: 130px; }
+.w220px { width: 220px; }
+.w230px { width: 230px; }
+.w245px { width: 245px; }
+.w250px { width: 250px; }
+.w300px { width: 300px; }
+.w330px { width: 330px; }
+.w340px { width: 340px; }
+.w400px { width: 400px; }
+.w570px { width: 570px; }
+.w960px { width: 960px; }
+
+.h10px { height: 10px; }
+.h30px { height: 30px; }
+.h35px { height: 35px; }
+.h40px { height: 40px; }
+.h45px { height: 45px; }
+.h50px { height: 50px; }
+.h90px { height: 90px; }
+.h100px { height: 100px; }
+
+
+
+.asBlock { display: block !important; }
+.inLine { display: inline !important; }
+
+.pAbsolute { position: absolute; }
+.pRelative { position: relative; }
+
+strong { font-weight: bold; }
+
+em {font-style: italic; }
+
+ul {
+	list-style: none;
+	list-style-position: outside;
+}
+
+ol {
+	list-style-position: inside;
+	color: #777; font-size: 1.2em; margin: 1.5em;
+}
+
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+/* Hides from IE-mac \*/ * html .clearfix {height: 1%;} /* End hide from IE-mac */
+
+
+
+/* =Layout
+----------------------------------------------------------------------------*/
+body#form {
+    background: #f3f3f3;
+}
+#outerWrapper { 
+    height: 570px;
+    background: #EFF1EE url('../img/css/bkg_body_01.gif') repeat-x center;
+
+}
+#wrapper {
+    width: 645px;
+    height: 540px;
+    margin: 0 auto;
+    padding: 18px ;
+
+    
+}
+
+#bg_wrap {
+	height: 190px;
+	width: 50%;
+	right: 0;
+	background: url(../img/css/bkg_obra_01.jpg) repeat-x 0 18px;
+	position: absolute;
+	z-index: -1;
+}
+
+#form form {
+    padding: 20px 0 0 0;
+}
+
+#obra {
+    height: 200px;
+}
+
+#obraContent {
+    width: 130px;
+    height: 190px;
+    margin: 0 auto;    
+}
+
+#obra form {
+
+    padding: 75px 0 0 10px;
+}
+
+#errores{
+	width:100%;
+	margin-bottom:10px;
+	color:#dc0039;
+	font-weight:bold;
+	font-size: 14px;
+}  
+
+body#notaLegal {
+    background: #F3F3F3;
+}
+body#notaLegal div {
+    padding: 10px;
+}  
+
+#loading{
+
+	width:100%;
+	height:100%;
+	background:url(../img/loading.gif) #fff center no-repeat;
+    position:absolute;
+	top:0;
+	left:0;
+	z-index:999;
+
+}
+
+#notaLegal p {
+    line-height: 1.2;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+
+
+
+
+/* Classes and stuff
+--------------------------------------------------------------------------*/
+.formRow {
+    padding: 14px 0;
+}
+.formRow .label {
+    width: 65px;
+    padding: 0 5px 0 0;
+    font-size: 1.1em;
+}
+.formRow .label2 {
+    width: 125px;
+    padding: 0 5px 0 0;
+    font-size: 1.1em;
+}
+.formRow .labelInt {
+    padding: 5px 0 0 5px;
+    color: #959595;
+}
+.formRow .field {
+    border: 1px solid #ababab;
+    background: #eceded;
+    padding: 2px;
+    color: #626262;    
+}
+
+    
+/*------------------------------------------------------------------------*/
+
+
+
+
+
+/* =Type
+--------------------------------------------------------------------------*/
+a { text-decoration: underline; color: #535353;  }
+
+/*------------------------------------------------------------------------*/
+
+

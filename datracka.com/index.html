@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META NAME="TITLE" CONTENT="Vicens Fayos Website">
+<META NAME="DESCRIPTION" CONTENT="website portfolio Vicens Fayos">
+<META NAME="KEYWORDS" CONTENT="Vicens, Fayos, website, portfolio">
+<META NAME="OWNER" CONTENT="Vicens Fayos">
+<META NAME="AUTHOR" CONTENT="Vicens Fayos">
+<META HTTP-EQUIV="EXPIRES" CONTENT="">
+<META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="English">
+<META HTTP-EQUIV="VW96.OBJECT TYPE" CONTENT="Homepage">
+<META NAME="RATING" CONTENT="General">
+<META NAME="ROBOTS" CONTENT="index,follow">
+<META NAME="REVISIT-AFTER" CONTENT="4 weeks">
+<title>.:: datracka - Home & Portfolio: Microsites ::.</title>
+
+<link rel="icon" href="img/favicon.png"/> 
+
+   <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+   <script type="text/javascript" src="js/jquery.flash.js"></script>
+   <script language="javascript" src="js/UserInteface.js"></script>
+   <script type="text/javascript">
+		
+		    //SIDEBAR -------------------------------------------------			
+		   //thanks to gAlabnell www.gerardalbanell.com
+		   //great developer
+		   
+			var offset = $("#menu").offset();
+            var topPadding = 0;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > offset.top) {
+                    $("#menu").stop().animate({
+                        marginTop: $(window).scrollTop() + topPadding
+                    } , 1000);
+                } else {
+                    $("#gadgets").stop().animate({
+                        marginTop: 370
+                    } , 1000);
+                };
+            });
+   </script>
+
+	<script language="javascript">
+    
+    $(document).ready(function(){
+	
+            var oUI = new UserInterface();
+            oUI.public.initWindow();
+	//		oUI.public.initMenu();
+	//		console.log($("#gameinfo").width(), $("#gameinfo").height());
+            
+            $("#closeVideoVidly").click(function(){ oUI.public.closeVideo("#vidly")});
+			$("#video_eristoff").click(function(){oUI.public.showVideo(640,390,"#vidly","http://vid.ly/3b3y4l?content=video");});
+//			href="http://www.youtube.com/watch?v=ZXZ5I4adsVc"
+			$("#video_composing").click(function(){oUI.public.showVideo(0,0,"#vidly","http://www.youtube.com/embed/ZXZ5I4adsVc");});
+    });
+            
+    </script>
+
+   <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21880508-1']);
+  _gaq.push(['_setDomainName', '.datracka.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<link href="css/reset.css" type="text/css" rel="stylesheet" />
+<link href="css/datracka.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+	#infobackground{
+		top:0;
+		left:0;
+		display:none;
+		background-color:#333;
+		position:fixed;
+		z-index:0;
+		opacity:0.5;
+	}
+
+	#vidly{
+		display:none;
+		background-color:#000;
+		z-index:3000;
+		position:absolute;
+		padding:0px;
+		border:1px solid #333;
+		color:#FFF;
+	}
+	
+	#youtube{
+		display:none;
+		background-color:#000;
+		z-index:3000;
+		position:absolute;
+		padding:0px;
+		border:1px solid #333;
+		color:#FFF;
+	}
+	
+	#vidly-video{
+		width:640px;
+		height:390px;
+	}
+</style>
+</head>
+<body>
+<div id="container">
+   <div id="header" >
+   		<img src="img/logo_dtk_12.png" alt="dtk logo" />
+        <h1 style=" ">Vicens Fayos'Portfolio</h1>
+		<div class="bar" >{Porfolio: Microsites}</div>
+	</div>
+     <div id="menu"> 	
+     		<ul>
+            	<li><a href="index.html" rel="index">{Portfolio: Microsites}</a></li>
+                <li><a href="portals.html" rel="porfolio portal">{Portfolio: Portals}</a></li>
+                <li><a href="info.html" rel="portfolio info">{Info & Contact}</a></li>
+                <li><a target="_blank" href="http://datracka.tumblr.com" rel="vicens fayos blog">{Lab & Experiments}</a></li>
+            </ul>
+       </div> 
+       <div id="content">
+       	   <h2>Work:</h2>
+           <div id="project">
+            <p><a href="http://www.eristoffstreets.es/"><b>Eristoff Night Street View</b></a> @ CP Proximity | <a target="_blank" href="http://www.youtube.com/watch?v=hmcQBV4uq_U"> watch video</a></p>
+            <img src="img/nightstreet.png" alt="noogle"  />
+            <ul>
+                <li><b>Year:</b> 2011</li>
+                <li><b>Position:</b> Developer</li>
+                <li><b>Technologies:</b> .NET, J2EE, MSSQL, JSON</li>
+                <li><b>Comments:</b> Design, analysis and development of a "google street view" for eristoff.</li>
+			</ul>
+            </div>
+           <div id="project">
+            <p><a href="http://laobradesuvida.datracka.com"><b>Composing your life</b></a> @ CP Proximity | <a id="video_composing" style=" cursor:pointer"> watch video</a></p>
+            <img src="img/composing.png" alt="noogle"  />
+            <ul>
+                <li><b>Year:</b> 2010</li>
+                <li><b>Position:</b> Technical Director & developer</li>
+                <li><b>Technologies:</b> Flash, Php, Mysql, Rpc/xml</li>
+                <li><b>Comments:</b> winner of 8 prizes, including Cannes Award</li>
+			</ul>
+            </div>
+            
+            <div id="project">
+            <p><a href="http://eif.datracka.com/?idio=cas"><b>Eristoff internative Festival</b></a> @ CP Proximity | <a id="video_eristoff" style=" cursor:pointer"> watch video</a></p>
+            <img src="img/eif.png" alt="Eristoff internative festival" />
+            <ul>
+                <li><b>Year:</b> 2009/2010</li>
+                <li><b>Position:</b> Technical Director & developer</li>
+                <li><b>Technologies:</b> Flash, .NET, mSQL 2005, SoapXML, Live Streaming</li>
+                <li><b>Comments:</b> winner of 4 prizes</li>
+			</ul>
+            </div>
+
+            <div id="project">
+            <p><a href="#"><b>La señal, The Sign</b></a> @ CP Proximity | <a target="_blank" href="http://www.youtube.com/watch?v=0KhMybJhfbM"> watch video</a></p>
+            <img src="img/lasenal.png" alt="La señal, The Sign" />
+            <ul>
+                <li><b>Year:</b> 2008</li>
+                <li><b>Position:</b> Technical Director & developer</li>
+                <li><b>Technologies:</b> Flash, .php, FB application</li>
+                <li><b>Comments:</b> winner of 2 prizes, secret access, extras pass: 2646</li>
+			</ul>
+            </div>
+            
+            <div id="project">
+            <p><a href="#"><b>Noggle</b></a> @ CP Proximity | <a target="_blank" href="http://www.youtube.com/watch?v=3kVKl6nNtCo"> watch video</a></p>
+            <img src="img/noogle.png" alt="Noogle" />
+            <ul>
+                <li><b>Year:</b> 2008</li>
+                <li><b>Position:</b> Technical Director & Creative</li>
+                <li><b>Technologies:</b> Javascript, Jquery, PHP, google Search API</li>
+                <li><b>Comments:</b> winner of 2 prizes</li>
+			</ul>
+            </div>
+            
+            <div id="project">
+            <p><a href="#"><b>Q5 Generis</b></a> @ CP Proximity | <a target="_blank" href="http://www.youtube.com/watch?v=Lz9sagcFbSk&playnext=1&list=PL7F9AF4AAD7CF52B0"> watch video</a></p>
+            <img src="img/q5generis.png" alt="Q5 Generis" />
+            <ul>
+                <li><b>Year:</b> 2008</li>
+                <li><b>Position:</b> Technical Director & developer</li>
+                <li><b>Technologies:</b> Flash, PHP, Rpc/xml</li>
+                <li><b>Comments:</b> winner of 3 prizes</li>
+			</ul>
+            </div>
+            
+            <div id="project">
+            <p><a href="http://lagranevasion.datracka.com" target="_blank"><b>La Gran Evasión, The Great Escape</b></a> @ CP Proximity | <a target="_blank" href="http://www.youtube.com/watch?v=n7lqgy0k9xQ"> watch video</a></p>
+            <img src="img/bongo.png" alt="La gran Evasión, The Great Escape" />
+            <ul>
+                <li><b>Year:</b> 2008</li>
+                <li><b>Position:</b> Technical Director</li>
+                <li><b>Technologies:</b> Flash (mode7), PHP</li>
+                <li><b>Comments:</b> winner of 6 prizes</li>
+			</ul>
+            </div>
+            
+            <div id="project">
+            <p><a href="#"><b>Rosen Project</b></a> @ CP Proximity | <a target="_blank" href="http://www.youtube.com/watch?v=6pF9jYoQoBw"> watch video</a></p>
+            <img src="img/rosen.png" alt="Rosen Project, Proyecto Rosen" />
+            <ul>
+                <li><b>Year:</b> 2008</li>
+                <li><b>Position:</b> Technical Director</li>
+                <li><b>Technologies:</b> Flash (mode7), PHP</li>
+                <li><b>Comments:</b> winner of 4 prizes</li>
+			</ul>
+            </div>
+        </div>
+	<div id="footer">
+	</div>
+    <!--
+              <div class="floatRight w570px pt85px pl25px">
+     		   <div class="sackers1"><p class="web">Official site <a target="_blank" href="http://www.eristoffinternativefestival.com">www.eristoffinternativefestival.com</a></p></div>
+       			 <div id="video" class="mt5px pt35px pl5px"></div>
+    	   </div> 
+    -->
+</div>	
+<div id="infobackground"></div>
+<div id="vidly">
+<div id="closeVideoVidly" style=" text-align:right; height:12px; font-size:10px; font-family:Verdana, Geneva, sans-serif; cursor:pointer;">close</div>
+<video id='vidly-video' controls='controls' ><source id="source_vidly" src=''/></video>
+</div>
+<div id="youtube">youtube</div>
+</body>
+</html>

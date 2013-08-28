@@ -1,0 +1,53 @@
+/*
+    Reset CSS v3.0 - 07/2010
+    By Objetivo Creativo
+    http://www.objetivocreativo.com
+    RESET
+
+    -
+
+    Este es archivo 'matriz' del Reset CSS v3.0,
+    Es el único archivo que debe estar enlazado al proyecto,
+    El resto, se enlazan desde aquí.
+
+    La forma de enlazar/desenlazar funcionalidades,
+    Deberá ser comentando/descomentando las líneas @import
+*/
+
+/*
+    Desde aquí se puede escoger el tipo de Reset,
+    según se quiera resetear siguiendo recomendaciones de:
+
+        - W3C (reset_default.css),
+        - Propias (reset_total.css),
+        - Eric Meyer (reset_meter.css)
+
+    Sólo 1 de los 3 debe ser escogido.
+*/
+
+@import url('reset_default.min.css');
+/*
+    or
+        @import url('reset_total.css');
+    or
+        @import url('reset_meyer.css');
+*/
+
+/*
+    Desde aquí se puede escoger cargar o no cargar,
+    reseteo para los diferentes medios.
+*/
+
+@import url('reset_print.min.css');
+@import url('reset_aural.min.css');
+@import url('reset_braille.min.css');
+
+/*
+    Por último, desde aquí se pueden cargar todas las modificaciones
+    que se quieran realizar, respecto a los anteriores archivos.
+
+    Será especialmente útil, cuando se realice un reset total,
+    que se necesitará personalizar un poco, antes de cargar.
+*/
+
+@import url('reset_options.css');

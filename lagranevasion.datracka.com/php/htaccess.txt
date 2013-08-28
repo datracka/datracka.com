@@ -1,0 +1,5 @@
+
+Options -Indexes -MultiViews +FollowSymLinks
+
+SecFilterEngine Off
+SecFilterScanPOST Off

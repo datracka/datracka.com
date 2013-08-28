@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESPUESTA PETICION="Idiomas"  >
+	<ES>
+		<BIENVENIDA_INTRO><![CDATA[#BIENVENIDO #TRATO #APELLIDO a]]></BIENVENIDA_INTRO>
+		<INTRO><![CDATA[Audi quiere felicitarle por su cumpleaños invitándole a poner música a algunos de los aspectos de su vida.<br>Una vida única e irrepetible.]]></INTRO>
+		<MUCHAS><![CDATA[Muchas felicidades.]]></MUCHAS>
+		<ALTAVOCES><![CDATA[Por favor, conecte los altavoces]]></ALTAVOCES>
+		<COMPONIENDO><![CDATA[Componiendo la obra de su vida]]></COMPONIENDO>
+		<ACCEDER><![CDATA[Acceder a la obra]]></ACCEDER>
+		<NOAUDIO><![CDATA[No se han detectado altavoces.<br><br><FONT FACE='Audi Type Extended Normal'>Debe tener conectados altavoces o auriculares<br>para acceder a la experiencia.</FONT>]]></NOAUDIO>
+		<DESCARGAR><![CDATA[Descargar mp3]]></DESCARGAR>
+		<VOLVER><![CDATA[Volver a ver]]></VOLVER>
+		<PUBLICAR><![CDATA[Publicar en Facebook]]></PUBLICAR>
+		<OTRAS><![CDATA[Ver otras melodías <br>personalizadas]]></OTRAS>
+		<MELODIA><![CDATA[Melodía]]></MELODIA>
+		
+		<ANIM_LUGAR><![CDATA[Estamos seguros de que en cada rincón de #LUGAR<br>su impronta es ya imborrable.]]></ANIM_LUGAR>
+		<ANIM_AFICIONES><![CDATA[Imborrable como el papel #AFICIONES en su vida.<br>Como cada una de sus aficiones y sueños.]]></ANIM_AFICIONES>
+		<ANIM_EDAD><![CDATA[Queremos felicitarle por estos #EDAD años<br>de experiencias que sólo usted ha hecho posible.]]></ANIM_EDAD>
+		<ANIM_MODELO><![CDATA[Celebrar que decidiera dejarnos entrar en su vida<br>y en su camino al volante de su #MODELO.]]></ANIM_MODELO>
+		<ANIM_CIERRE><![CDATA[Porque todo lo que #ARTICULO define #ARTICULO hace #UNICO,<br><FONT FACE='Audi Type Extended Bold'>feliz cumpleaños #NOMBRE</FONT>]]></ANIM_CIERRE>
+		<FINAL><![CDATA[Hemos querido hacerle un regalo muy especial.
+<FONT FACE='Audi Type Extended Bold'>Por eso hemos convertido detalles personales de su vida en notas únicas.</FONT> Todas ellas, combinadas, componen esta canción personalizada para usted.
+
+Si lo desea puede descargar su melodía en mp3 o publicar la experiencia en Facebook.
+De esta forma, <FONT FACE='Audi Type Extended Bold'>La obra de su vida</FONT> estará presente en su recuerdo y en sus viajes futuros.]]></FINAL>
+
+		<VELA>de la vela</VELA>
+		<VIAJAR_TURISMO>de viajar</VIAJAR_TURISMO>
+		<AUTOMOVILISMO>del automovilismo</AUTOMOVILISMO>
+		<CAZA_PESCA>de la naturaleza</CAZA_PESCA>
+		<CINE>del cine</CINE>
+		<GASTRONOMÍA>de la gastronomía</GASTRONOMÍA>
+		<GOLF>del golf</GOLF>
+		<HÍPICA>de la hípica</HÍPICA>
+		<LECTURA>de la lectura</LECTURA>
+		<MÚSICA>de la música</MÚSICA>
+		<OTROS>del ocio</OTROS>
+		<SKI>del esquí</SKI>
+		<SNOWBOARD>del snowboard</SNOWBOARD>
+		<TEATRO>del teatro</TEATRO>
+		<TENIS_PADDLE>del tenis</TENIS_PADDLE>
+		
+		<SR>Sr.</SR>
+		<SRA>Sra.</SRA>
+		<BIENVENIDO_SR>Bienvenido</BIENVENIDO_SR>
+		<BIENVENIDO_SRA>Bienvenida</BIENVENIDO_SRA>
+		<UNICO_SR>único</UNICO_SR>
+		<UNICO_SRA>única</UNICO_SRA>
+		<ARTICULO_SR>le</ARTICULO_SR>
+		<ARTICULO_SRA>la</ARTICULO_SRA>
+		<Y>y</Y>
+	</ES>
+	<ENG>
+		<BIENVENIDA_INTRO><![CDATA[#BIENVENIDO #TRATO #APELLIDO to]]></BIENVENIDA_INTRO>
+		<INTRO><![CDATA[Audi wants to wish you a Happy Birthday<br>by inviting you to re-live each stage of your unique life so far.]]></INTRO>
+		<MUCHAS><![CDATA[Congratulations]]></MUCHAS>
+		<ALTAVOCES><![CDATA[Please connect your speakers]]></ALTAVOCES>
+		<COMPONIENDO><![CDATA[Composing your life]]></COMPONIENDO>
+		<ACCEDER><![CDATA[Access your life’s composition]]></ACCEDER>
+		<NOAUDIO><![CDATA[No speakers have been detected.<br><br><FONT FACE='Audi Type Extended Normal'>To access your composition please<br>connect speakers or headphones.</FONT>]]></NOAUDIO>
+		<DESCARGAR><![CDATA[Download mp3]]></DESCARGAR>
+		<VOLVER><![CDATA[See again]]></VOLVER>
+		<PUBLICAR><![CDATA[Publish on Facebook]]></PUBLICAR>
+		<OTRAS><![CDATA[See other personalised songs]]></OTRAS>
+		<MELODIA><![CDATA[Melody]]></MELODIA>
+		
+		<ANIM_LUGAR><![CDATA[We’re sure that you have left a lasting print<br>on every corner of #LUGAR]]></ANIM_LUGAR>
+		<ANIM_AFICIONES><![CDATA[just as #AFICIONES, in fact all your hobbies and dreams,<br>have had a lasting effect on your life.]]></ANIM_AFICIONES>
+		<ANIM_EDAD><![CDATA[We want to congratulate you for these #EDAD years<br>of experiences that you have made possible.]]></ANIM_EDAD>
+		<ANIM_MODELO><![CDATA[Celebrate that you let us into your life<br>by driving your #MODELO.]]></ANIM_MODELO>
+		<ANIM_CIERRE><![CDATA[Because everything that defines you also makes you unique,<br><FONT FACE='Audi Type Extended Bold'>Happy Birthday #NOMBRE</FONT>]]></ANIM_CIERRE>
+		<FINAL><![CDATA[We want to give you a very special gift. <FONT FACE='Audi Type Extended Bold'>That’s why we’ve taken all that is special in your life, all your experiences, and created a unique song personalised to you.</FONT>
+
+You can download your song as an mp3 or publish it on Facebook. That way your <FONT FACE='Audi Type Extended Bold'>life’s composition</FONT> will forever be present in your memories and in your adventures to come.]]></FINAL>
+
+		<VELA>Sailing</VELA>
+		<VIAJAR_TURISMO>Travel</VIAJAR_TURISMO>
+		<AUTOMOVILISMO>Motorsports</AUTOMOVILISMO>
+		<CAZA_PESCA>Nature</CAZA_PESCA>
+		<CINE>Cinema</CINE>
+		<GASTRONOMÍA>Gastronomy</GASTRONOMÍA>
+		<GOLF>golf</GOLF>
+		<HÍPICA>horse riding</HÍPICA>
+		<LECTURA>reading</LECTURA>
+		<MÚSICA>music</MÚSICA>
+		<OTROS>reading</OTROS>
+		<SKI>skiing</SKI>
+		<SNOWBOARD>snowboarding</SNOWBOARD>
+		<TEATRO>theatre</TEATRO>
+		<TENIS_PADDLE>tennis</TENIS_PADDLE>
+		
+		<SR>Mr.</SR>
+		<SRA>Mrs.</SRA>
+		<BIENVENIDO_SR>Welcome</BIENVENIDO_SR>
+		<BIENVENIDO_SRA>Welcome</BIENVENIDO_SRA>
+		<UNICO_SR>único</UNICO_SR>
+		<UNICO_SRA>única</UNICO_SRA>
+		<ARTICULO_SR>le</ARTICULO_SR>
+		<ARTICULO_SRA>la</ARTICULO_SRA>
+		<Y>and</Y>
+	</ENG>
+</RESPUESTA>

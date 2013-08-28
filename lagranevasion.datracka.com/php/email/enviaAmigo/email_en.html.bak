@@ -1,0 +1,11 @@
+<html>
+<head>
+		<title>Bongo</title>
+</head>
+<body>
+	Hello __NOMBRE_AMIGO__, 
+	<br /><br />
+	__NOMBRE__ te invita a ser acompanyante de Bongo.
+	<br /><br />
+</body>
+</html>
