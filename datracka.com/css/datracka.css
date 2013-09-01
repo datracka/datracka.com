@@ -7,7 +7,7 @@
 }
 
 body{
-	background-color:#666;
+	background-color:#FDFDFD;
 	font-family:Verdana, Geneva, sans-serif;
 	overflow:scroll;
 }
@@ -16,7 +16,7 @@ div#container{
 	position:relative;
 	margin:0px auto;
 	width:980px;
-	background-color:#666;
+	background-color:#FDFDFD;
 }
 
 #header{
@@ -37,11 +37,17 @@ div#container{
 	padding-left:10px;
 	background: #000;
 	font-size:14px;
-	margin-top:10px;
+
+    line-height: 19px;
 }
 
 #header h1{
-	font-size:36px; font-weight:bold; height:50px; position:static; margin-top:-50px; margin-left:150px;
+	font-size:56px;
+    font-weight:600px; height:50px;
+    position:static;margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: 'Nothing You Could Do', cursive;
+
 }
 
 #content{
@@ -55,7 +61,7 @@ div#container{
 	font-weight:bold;
 	padding-bottom:10px;
 	padding-top:10px;
-	color:#FFF;
+	color:#000;
 }
 
 #content a{
@@ -68,7 +74,7 @@ div#container{
 }
 
 #content a:hover{
-	color:#fff;
+    color: #565656;
 }
 
 #menu{
@@ -87,7 +93,8 @@ div#container{
 	font-size:14px;
 	height:20px;
 	vertical-align:central;
-	padding-top:2px;
+
+    line-height: 20px;
 }
 
 #menu li:hover{
@@ -97,6 +104,7 @@ div#container{
 #menu ul a{
 	text-decoration:none;
 	color:#fff;
+
 }
 
 #project{
@@ -118,7 +126,7 @@ div#container{
 }
 
 #project a:hover{
-	color:#fff;
+	color: #565656;
 }
 
 #project ul{
